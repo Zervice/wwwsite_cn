@@ -1,0 +1,1045 @@
+{"0": {
+    "doc": "How ZoomPhant Works",
+    "title": "How ZoomPhant Works",
+    "content": ". Like any complete monitoring solutions, ZoomPhant will performing all the tasks required for monitoring on behalf of customers: . | Collecting data from various sources, both structured data like metrics and seme-strutured data like logs / traces or events | Storing data in time series database. The Community version is backed by prometheus compatible timeseries database so the data are saved in standard formats. | Processing &amp; Presenting data. ZoomPhant has feature rich widgets for displaying various types of data. | Alerting &amp; Notifications. ZoomPhant has its proprietary engine to process the time series data in a realtime way and allow customers to set notifications based on stages using various methods like email, SMS, Voice or webhook | Configurations management. ZoomPhant has well organized ways for user to manage their monitored objects. | Plugins. ZoomPhant provides full range of plugins for monitoring various infrastructures and softwares / services. ZoomPhant supports using Prometheus plugins directly and will also has its plugin markets for customers to exchange valuable proprietary plugins. | . Depends on how you plan to use ZoomPhant, following diagrams will given you a very high-level idea about how ZoomPhant works . ",
+    "url": "/docs/about/work/",
+    
+    "relUrl": "/docs/about/work/"
+  },"1": {
+    "doc": "How ZoomPhant Works",
+    "title": "Using Proprietary Deployment (Deploying in Customer DataCenters)",
+    "content": "We recommend customers to use proprietary deployment and this is the only choice available for community version. In such deployments all ZoomPhant functions will be available in customer data center, this allow customers to own their data and reduce unnecessary bandwidth. For paid customers, they can register to ZoomPhant Cloud for advanced functions like system upgrading, SMS/Voice notifications, plugin managements etc. ",
+    "url": "/docs/about/work/#using-proprietary-deployment-deploying-in-customer-datacenters",
+    
+    "relUrl": "/docs/about/work/#using-proprietary-deployment-deploying-in-customer-datacenters"
+  },"2": {
+    "doc": "How ZoomPhant Works",
+    "title": "Using Cloud Service",
+    "content": "ZoomPhant will also offer traditional SaaS cloud service. Users can just register and start using ZoomPhant service by just installing data collecting agents. Customers need to install one or more data collecting agent in their data center to help collect desired monitoring data to achieve Total Monitoring (TM), and ZoomPhant Cloud service will offer advanced monitoring like Web Service Performance Monitoring (wSPM) for customers to monitor their important business service websites. ",
+    "url": "/docs/about/work/#using-cloud-service",
+    
+    "relUrl": "/docs/about/work/#using-cloud-service"
+  },"3": {
+    "doc": "Why ZoomPhant",
+    "title": "Why ZoomPhant",
+    "content": ". ",
+    "url": "/docs/about/",
+    
+    "relUrl": "/docs/about/"
+  },"4": {
+    "doc": "Why ZoomPhant",
+    "title": "Why Do We Create ZoomPhant?",
+    "content": "Monitoring is important, it’s intrinsic in our nature to make sure everything is under control, especially for a business. A monitoring system would . | Help us understand what’s going on | More important, when things are wrong, we can find out why | Even better, based on past information, what would happen and what should we do in advance | . It is obvious that such a system won’t be simple! No wonder in our journey of servicing enterprise customers over the past decade, one common comment we heard from the customers is: “All monitoring software is a mess; we’re just trying to find the least awful one.” . This is interesting and it makes us to think about what a monitoring solution should be for the modern age. After experimenting with various monitoring softwares ourselves, combining our background and experience, we have come up with ZoomPhant as our answer. Let’s first try classifying the existing monitoring systems into generations for a better understanding. First Generation Monitoring Systems: Locally Deployed Dedicated Systems . Initially, monitoring systems were designed to manage computer systems, providing performance metrics and reporting functionalities. Subsequently, standards and protocols for network management, such as SNMP, emerged, followed by commercial monitoring software like IBM’s Netview and HP’s OpenView, alongside open-source solutions like Nagios and Zabbix. Despite variations in timing and features, these systems shared common traits: . | Local Deployment: Primarily deployed and managed on local servers, adding to operational overhead instead of streamlining it. | Singular Purpose: Focused either on monitoring infrastructure performance metrics or network devices. | Static Configuration: Manual configuration of monitoring parameters and alert rules, lacking flexibility and automation. | Limited Visualization: Offering basic charts and reports, lacking in-depth analysis and visualization capabilities. | . Second Generation Monitoring Systems: SaaS-based Centralized Management Systems . Emerging in the era of SaaS, these systems addressed the pain points of traditional monitoring systems requiring localized operations. With just a few clicks, users could deploy a monitoring system, exemplified by cloud service providers like Amazon CloudWatch, Google Stackdriver, Microsoft Azure Monitor, and commercial SaaS companies like Datadog, New Relic, and Dynatrace. While promising, these systems incurred high data transmission and storage costs, compelling users to reduce monitored data and shorten its retention in the cloud. Also users are worrying about the security of the data and usage of their data, and in the era of AI, users found themselves devoid of historical data, facing challenges in data exportation or encountering exorbitant export fees. This dilemma was epitomized in headlines like “NASA: We forgot the $30m bandwidth charges!” . Third Generation Monitoring Systems: Next-Gen Monitoring Systems . Reassessing contemporary monitoring needs, we identified key functionalities that next-gen monitoring systems should embody: . | Data Sovereignty: Empowering users with greater autonomy over data storage, processing, and security. Users should choose to store monitoring data in their own environments for enhanced control over data security and compliance, with standardized data formats facilitating seamless data integration with third-party platforms. | Cost-effectiveness: Providing more cost-effective solutions than second-generation counterparts, potentially through flexible pricing models, lower overall costs, and enhanced value propositions. | Autonomous Deployment Options: Offering local deployment or hybrid deployment alongside SaaS models, enabling users to store critical data locally while utilizing cloud storage for non-essential data. This approach reduces users’ data storage and transmission costs. | . ",
+    "url": "/docs/about/#why-do-we-create-zoomphant",
+    
+    "relUrl": "/docs/about/#why-do-we-create-zoomphant"
+  },"5": {
+    "doc": "Why ZoomPhant",
+    "title": "ZoomPhant: The Next-Gen Monitoring System",
+    "content": "ZoomPhant is based on our past experience of creating SaaS monitoring solutions as well as our experience of servicing thousands of enterprise customers all over the world. Monitoring is valuable but complicated, we want ZoomPhant to be an affordable enterprise-level monitoring solution for all customers, small to large. ZoomPhant would help enterprises to solve the monitoring problems for better focusing on their businesses: . | All-in-One Image Deployment: All components are consolidated into a single image for one-click deployment. Users can effortlessly deploy via Docker locally or through cloud services like AWS ECS. | Support for Hybrid Deployment: Systems deployed locally can be centrally managed in the cloud by registering with cloud services. Data remains stored locally, with cloud access limited to viewing, thus mitigating data transmission costs and saving on cloud storage fees. | Standardized Local Data Usage: Metric storage utilizes Prometheus format, while log storage follows Loki format, facilitating seamless integration with various data analytics platforms without constraints. | Built-in Visual Collector Task Management: UI interface enables direct configuration for data retrieval without the need for manual configuration files, with plugin extensions available for fetching arbitrary data. | Plus all the functions a complete monitoring solution shall have: data collecting, processing, alerting, storing, presenting and many others! | . Try and Explore ZoomPhant Today! . ",
+    "url": "/docs/about/#zoomphant-the-next-gen-monitoring-system",
+    
+    "relUrl": "/docs/about/#zoomphant-the-next-gen-monitoring-system"
+  },"6": {
+    "doc": "Dashboards",
+    "title": "Dashboards",
+    "content": ". ",
+    "url": "/docs/concepts/dashboards/",
+    
+    "relUrl": "/docs/concepts/dashboards/"
+  },"7": {
+    "doc": "Dashboards",
+    "title": "Understanding Dashboards in Monitoring",
+    "content": "Dashboards play a pivotal role in monitoring systems, providing users with a visual interface to effectively monitor, analyze, and manage their IT infrastructure. In ZoomPhant, dashboards are categorized into three levels: global, service level, and independent level, each serving specific purposes tailored to the user’s needs. ",
+    "url": "/docs/concepts/dashboards/#understanding-dashboards-in-monitoring",
+    
+    "relUrl": "/docs/concepts/dashboards/#understanding-dashboards-in-monitoring"
+  },"8": {
+    "doc": "Dashboards",
+    "title": "The Importance of Dashboards in Monitoring Systems",
+    "content": ". | Overview of System Health: . | Dashboards offer a comprehensive overview of the system’s health and performance metrics, allowing users to quickly identify trends, anomalies, and potential issues across their entire infrastructure. | . | Real-time Monitoring: . | Dashboards provide real-time visibility into key performance indicators (KPIs), enabling users to monitor critical metrics and respond promptly to changes or incidents as they occur. | . | Data Visualization: . | Dashboards utilize data visualization techniques to present complex information in an easy-to-understand format, enabling users to gain insights at a glance and make informed decisions. | . | Customization and Flexibility: . | Dashboards can be customized to meet the specific needs of users and organizations, allowing them to tailor the layout, content, and metrics displayed based on their preferences and priorities. | . | . ",
+    "url": "/docs/concepts/dashboards/#the-importance-of-dashboards-in-monitoring-systems",
+    
+    "relUrl": "/docs/concepts/dashboards/#the-importance-of-dashboards-in-monitoring-systems"
+  },"9": {
+    "doc": "Dashboards",
+    "title": "Types of Dashboards in ZoomPhant",
+    "content": ". | Global Dashboard: . | The global dashboard provides a centralized view of the entire system on a single page, allowing users to monitor and manage multiple services and components across their infrastructure from one location. | Click Dashboard &gt; Manage &gt; Add to create a new global dashboard. | In a custom dashboard, you can add widgets to the dashboard by clicking on the “+ Widget” icon in the top left corner of the screen. | . | Service Level Dashboard: . | Service level dashboards are specific to individual services or components within the infrastructure. Once created, a service level dashboard is accessible across all instances of the same service, providing consistent monitoring and analysis capabilities. | Click Dashboard &gt; Add in a service page to create a dashboard. | If the toggle is set to “Service”, it would be a service level dashboard. | You can not only see the dashboard on this service page, but also see the dashboard on other same type services. | . | Independent Level Dashboard: . | Independent level dashboards are unique to the service or component they are created for and are not shared with other instances of the same service. They offer focused monitoring and analysis tailored to the specific requirements of the service. | Click Dashboard &gt; Add in a service page to create a dashboard. | If the toggle is set to “Current”, it would be an independent level dashboard. | You can only see the dashboard on this service page. | . | . ",
+    "url": "/docs/concepts/dashboards/#types-of-dashboards-in-zoomphant",
+    
+    "relUrl": "/docs/concepts/dashboards/#types-of-dashboards-in-zoomphant"
+  },"10": {
+    "doc": "Dashboards",
+    "title": "Understanding Widgets in ZoomPhant Dashboards",
+    "content": "Widgets are the building blocks of dashboards in ZoomPhant, allowing users to visualize and analyze monitoring data in various formats. ZoomPhant offers a wide range of widgets, including: When you are in a custom dashboard, you can add widgets to the dashboard by clicking on the “Add Widget” icon. All the widgets contain two configuration tabs: . | Basic Information: . | Display: The name of the widget. | Global Time Range: The time range for the widget would follow the global time range. | Query Step: The time interval between each data point. | Grouping: You need to set grouping in the dashboard. | Description: The description of the widget. | . | Data Information: Different widgets have different data information. Almost all widgets need the “Add Data Series”. | Graph Widget: Displays time-series data in line, area, or bar charts, allowing users to track trends and patterns over time. | You can set the Y-axis label.Or just click on the “Add Data Series” button. | When adding data series, normally you just need to set the metric. If you are already familiar with our data query syntax, you can also use some advanced features. | The widget seems like this. | . | Pie Widget: Represents data in a circular graph, illustrating the distribution of values as proportions of a whole. | You can set how many slices you want. Or just click on the “Add Data Series” button. | The widget seems like this. | . | Statistic Widget: Displays key performance metrics such as average response time, error rate, or throughput in a numerical format. | You can add at most 4 data series for the statistic widget. | There are 3 queries in one data series configuration. | The basic query is the same as the other series configuration. | And there are Sum Query and Background Query. For the Sum Query, it would show the Total in the widget. And for the Background Query, it would base on the result to set the background color. | . | The widget seems like this. | . | Text Widget: Allows users to add custom text or annotations to the dashboard to provide additional context or information. | Multiple texts and styles can be set here, and the display of each configuration is determined based on the comparison of the query result and the threshold | The widget seems like this. | . | Monitor Table Widget: Presents tabular data, such as server status, resource utilization, or service availability, in a structured format. | The widget seems like this. | . | Log Viewer Widget: Enables users to view and analyze log data from monitored services or components, facilitating troubleshooting and debugging. | The widget seems like this. | . | . | . ",
+    "url": "/docs/concepts/dashboards/#understanding-widgets-in-zoomphant-dashboards",
+    
+    "relUrl": "/docs/concepts/dashboards/#understanding-widgets-in-zoomphant-dashboards"
+  },"11": {
+    "doc": "Dashboards",
+    "title": "Conclusion",
+    "content": "Dashboards are essential components of monitoring systems, providing users with a centralized, real-time view of their IT infrastructure’s health and performance. In ZoomPhant, dashboards are customizable and flexible, offering global, service level, and independent level views tailored to the user’s needs. By leveraging a variety of widgets, ZoomPhant enables users to visualize and analyze monitoring data effectively, empowering them to make informed decisions and ensure the reliability and availability of their systems. ",
+    "url": "/docs/concepts/dashboards/#conclusion",
+    
+    "relUrl": "/docs/concepts/dashboards/#conclusion"
+  },"12": {
+    "doc": "Logs",
+    "title": "Logs",
+    "content": ". ",
+    "url": "/docs/concepts/logs/",
+    
+    "relUrl": "/docs/concepts/logs/"
+  },"13": {
+    "doc": "Logs",
+    "title": "Understanding Logs in Monitoring",
+    "content": "Logs play a crucial role in monitoring systems and applications, providing valuable insights into their behavior, performance, and security. Let’s explore the significance of logs in monitoring: . ",
+    "url": "/docs/concepts/logs/#understanding-logs-in-monitoring",
+    
+    "relUrl": "/docs/concepts/logs/#understanding-logs-in-monitoring"
+  },"14": {
+    "doc": "Logs",
+    "title": "Importance of Logs",
+    "content": "1. Event Tracking: . Logs capture events and activities occurring within systems and applications, including user interactions, system errors, and application crashes. By analyzing logs, organizations can track the sequence of events leading up to issues and identify their root causes. 2. Performance Monitoring: . Logs contain valuable performance-related information, such as response times, transaction rates, and resource utilization. By monitoring performance logs, organizations can assess system performance, identify performance bottlenecks, and optimize system efficiency. 3. Error Detection and Troubleshooting: . Logs provide detailed information about errors, warnings, and exceptions encountered by systems and applications. By monitoring error logs, organizations can detect and troubleshoot issues quickly, minimizing downtime and service disruptions. 4. Security Monitoring: . Logs capture security-related events, such as unauthorized access attempts, suspicious activities, and security policy violations. By analyzing security logs, organizations can detect security threats, investigate security incidents, and implement necessary security measures to protect their systems and data. ",
+    "url": "/docs/concepts/logs/#importance-of-logs",
+    
+    "relUrl": "/docs/concepts/logs/#importance-of-logs"
+  },"15": {
+    "doc": "Logs",
+    "title": "Logs in Zoomphant Monitoring System",
+    "content": " ",
+    "url": "/docs/concepts/logs/#logs-in-zoomphant-monitoring-system",
+    
+    "relUrl": "/docs/concepts/logs/#logs-in-zoomphant-monitoring-system"
+  },"16": {
+    "doc": "Logs",
+    "title": "Role of Logs in Zoomphant",
+    "content": "1. Real-time Monitoring: . Logs enable real-time monitoring of systems and applications, allowing organizations to proactively identify and respond to issues as they occur. Real-time log monitoring solutions provide alerts and notifications for critical events, enabling timely intervention and resolution. 2. Historical Analysis: . Logs serve as a historical record of system activities, allowing organizations to analyze past events and trends. By reviewing historical logs, organizations can identify recurring issues, track performance trends, and make informed decisions to improve system reliability and performance. 3. Compliance and Audit: . Logs are essential for compliance with regulatory requirements and industry standards. By maintaining comprehensive logs of system activities, organizations can demonstrate compliance with regulations such as GDPR, HIPAA, and PCI-DSS. Logs also facilitate audit processes by providing evidence of compliance and accountability. 4. Forensic Investigation: . Logs play a crucial role in forensic investigations following security incidents or data breaches. By analyzing logs, forensic investigators can reconstruct events, identify attack vectors, and attribute security breaches to specific individuals or entities. ",
+    "url": "/docs/concepts/logs/#role-of-logs-in-zoomphant",
+    
+    "relUrl": "/docs/concepts/logs/#role-of-logs-in-zoomphant"
+  },"17": {
+    "doc": "Logs",
+    "title": "Example Log Sources in Zoomphant",
+    "content": "Logs are integral to the Zoomphant monitoring system, providing valuable insights into system behavior, performance, and security. Zoomphant leverages various log sources, including local log files, rsyslog, and Loki push, to collect and analyze log data effectively. Additionally, by integrating DNS resolution with metrics, Zoomphant demonstrates the importance of combining metrics and logs for comprehensive monitoring and analysis. 1. Local Log Files: . Zoomphant collects log data from local log files generated by system components and applications running on monitored servers. These log files contain valuable information about system events, errors, and application activities, providing insights into system health and performance. 2. rsyslog: . Zoomphant utilizes rsyslog, a standard logging facility in Linux systems, to centralize and aggregate log data from multiple servers. rsyslog allows Zoomphant to collect logs from remote servers over the network, enabling centralized log management and analysis for improved visibility and troubleshooting. 3. Loki Push: . Loki push is used in Zoomphant to collect logs directly from loki push API. You just need to change the loki push address to our collector, no other changes needed. ",
+    "url": "/docs/concepts/logs/#example-log-sources-in-zoomphant",
+    
+    "relUrl": "/docs/concepts/logs/#example-log-sources-in-zoomphant"
+  },"18": {
+    "doc": "Logs",
+    "title": "Integration with Metrics in Zoomphant",
+    "content": "In Zoomphant, logs and metrics are seamlessly integrated to provide comprehensive monitoring and analysis capabilities. By correlating log data with metric data, Zoomphant offers deeper insights into system performance and behavior, enabling proactive monitoring, troubleshooting, and optimization. Example: DNS Resolution with Metrics and Logs . Zoomphant demonstrates the fusion of metrics and logs by integrating DNS resolution with monitoring data. By resolving DNS names to IP addresses and correlating them with metric and log data, Zoomphant enables contextual analysis and visualization of network-related events. | Scenario: When monitoring network performance, Zoomphant resolves DNS names to IP addresses and displays the current IP address associated with each DNS name in conjunction with relevant metrics and log entries. | Benefits: This integration allows Zoomphant users to identify network-related issues, such as latency spikes or connectivity issues, and correlate them with metric and log data for deeper analysis and troubleshooting. | . Example: Correlating Nginx Access Logs with Metrics . Zoomphant correlates Nginx access logs with metric data to provide insights into web server performance and client behavior. For example, Zoomphant can analyze Nginx access logs to identify patterns in client requests and correlate them with metrics such as response time and server load. | Scenario: When monitoring web server performance, Zoomphant analyzes Nginx access logs to identify high-traffic periods, common request paths, and client IP addresses. By correlating this data with metrics such as response time and server load, Zoomphant can optimize web server configuration and improve web application delivery. | Benefits: This integration allows Zoomphant users to gain a comprehensive understanding of web server performance and client interactions, enabling proactive monitoring, troubleshooting, and optimization of web applications. | . Logs are an essential component of the Zoomphant monitoring system, providing valuable insights into system behavior, performance, and security. By leveraging diverse log sources, including local log files, rsyslog, and Loki push, and integrating them with metrics, Zoomphant offers comprehensive monitoring and analysis capabilities for enhanced visibility, troubleshooting, and optimization of IT infrastructure. ",
+    "url": "/docs/concepts/logs/#integration-with-metrics-in-zoomphant",
+    
+    "relUrl": "/docs/concepts/logs/#integration-with-metrics-in-zoomphant"
+  },"19": {
+    "doc": "Logs",
+    "title": "Conclusion",
+    "content": "Logs are an indispensable component of monitoring systems and applications, providing a wealth of information for performance optimization, issue detection, security monitoring, and compliance. By leveraging logs effectively, organizations can enhance system reliability, ensure data integrity, and mitigate security risks effectively. ",
+    "url": "/docs/concepts/logs/#conclusion",
+    
+    "relUrl": "/docs/concepts/logs/#conclusion"
+  },"20": {
+    "doc": "Metrics",
+    "title": "Metrics",
+    "content": ". Metrics are the basic structured data that would be collected by ZoomPhant. ",
+    "url": "/docs/concepts/metrics/",
+    
+    "relUrl": "/docs/concepts/metrics/"
+  },"21": {
+    "doc": "Metrics",
+    "title": "Understanding Metrics in Monitoring",
+    "content": "Metrics play a vital role in monitoring systems and applications, providing actionable insights into their performance, health, and behavior. Let’s explore the types of metrics and their significance in monitoring: . ",
+    "url": "/docs/concepts/metrics/#understanding-metrics-in-monitoring",
+    
+    "relUrl": "/docs/concepts/metrics/#understanding-metrics-in-monitoring"
+  },"22": {
+    "doc": "Metrics",
+    "title": "Types of Metrics",
+    "content": "1. Counter Metrics: . Counter metrics represent incremental values that continuously increase over time. They are useful for tracking events or activities that occur repeatedly. For example: . | Metric: Number of HTTP requests processed. | Role in Monitoring: Monitoring the rate of incoming requests helps in assessing system load and identifying potential bottlenecks. | . 2. Gauge Metrics: . Gauge metrics represent specific values at a particular point in time. They provide a snapshot of the system’s state. For example: . | Metric: CPU usage percentage. | Role in Monitoring: Monitoring CPU usage helps in assessing system resource utilization and identifying performance anomalies. | . 3. Histogram Metrics: . Histogram metrics represent the distribution of observations into predefined bins or buckets. They provide insights into data distribution patterns. For example: . | Metric: Response time distribution. | Role in Monitoring: Analyzing response time distribution helps in identifying performance outliers and optimizing application responsiveness. | . 4. Summary Metrics: . Summary metrics provide additional statistics such as sum, count, min, max, and quantiles. They offer a detailed view of data distribution. For example: . | Metric: Transaction latency summary. | Role in Monitoring: Monitoring transaction latency summary helps in assessing application performance across different percentiles and identifying latency spikes. | . ",
+    "url": "/docs/concepts/metrics/#types-of-metrics",
+    
+    "relUrl": "/docs/concepts/metrics/#types-of-metrics"
+  },"23": {
+    "doc": "Metrics",
+    "title": "Metrics in Zoomphant Monitoring System",
+    "content": "In the Zoomphant monitoring system, metrics play a central role in assessing the health, performance, and behavior of various components. Zoomphant employs a comprehensive set of metrics to monitor different aspects of the system, ensuring optimal operation and user satisfaction. Let’s delve into how metrics are utilized in Zoomphant: . Key Metrics in Zoomphant . 1. System Health Metrics: . | CPU Usage: Monitors CPU utilization across servers to ensure optimal performance and resource allocation. | Memory Usage: Tracks memory utilization to prevent memory-related performance issues and optimize resource usage. | Disk I/O: Measures disk read/write operations to identify disk performance bottlenecks and optimize storage efficiency. | . 2. Service Availability Metrics: . | Request Rate: Measures the rate of incoming requests to assess service load and availability. | Response Time: Tracks response times to ensure timely delivery of services and identify performance anomalies. | Error Rate: Monitors the frequency of errors to detect issues affecting service availability and user experience. | . 3. Resource Utilization Metrics: . | Network Bandwidth: Monitors network traffic to optimize network performance and prevent congestion. | Database Connections: Tracks the number of active database connections to optimize database performance and prevent resource exhaustion. | Thread Pool Usage: Measures thread pool utilization to optimize concurrency and prevent thread contention. | . Role of Metrics in Zoomphant . 1. Performance Optimization: . Metrics in Zoomphant enable real-time performance monitoring and optimization, allowing for proactive identification and resolution of performance issues to maintain optimal system performance. 2. Anomaly Detection: . By continuously monitoring key metrics, Zoomphant can detect anomalies or deviations from expected behavior, enabling rapid response and resolution to prevent service disruptions and performance degradation. 3. Capacity Planning: . Metrics provide valuable insights into resource utilization trends, enabling Zoomphant to forecast resource requirements, plan for capacity expansion, and optimize resource allocation to meet growing demand. 4. SLA Compliance: . Zoomphant utilizes metrics to measure and ensure compliance with service level agreements (SLAs) by tracking key performance indicators (KPIs) such as response time, availability, and throughput, and taking corrective actions if SLA targets are not met. ",
+    "url": "/docs/concepts/metrics/#metrics-in-zoomphant-monitoring-system",
+    
+    "relUrl": "/docs/concepts/metrics/#metrics-in-zoomphant-monitoring-system"
+  },"24": {
+    "doc": "Metrics",
+    "title": "Examples of Metrics in Zoomphant",
+    "content": " ",
+    "url": "/docs/concepts/metrics/#examples-of-metrics-in-zoomphant",
+    
+    "relUrl": "/docs/concepts/metrics/#examples-of-metrics-in-zoomphant"
+  },"25": {
+    "doc": "Metrics",
+    "title": "Metrics for MySQL Monitoring",
+    "content": "Key Metrics: . | Queries Per Second (QPS): Measures the rate of queries executed by the MySQL server. | InnoDB Buffer Pool Usage: Monitors the utilization of the InnoDB buffer pool to optimize database performance. | Connection Count: Tracks the number of active database connections to ensure optimal resource allocation. | . Role in Monitoring: . | Performance Optimization: Identifies database performance bottlenecks and optimizes query execution for improved efficiency. | Resource Utilization: Monitors resource usage to ensure optimal database performance and prevent resource exhaustion. | . ",
+    "url": "/docs/concepts/metrics/#metrics-for-mysql-monitoring",
+    
+    "relUrl": "/docs/concepts/metrics/#metrics-for-mysql-monitoring"
+  },"26": {
+    "doc": "Metrics",
+    "title": "Metrics for Kafka Monitoring",
+    "content": "Key Metrics: . | Broker Metrics: Includes metrics such as message in/out rates, request/response times, and partition lag. | Consumer Lag: Measures the lag between message production and consumption to ensure data processing efficiency. | Partition Metrics: Tracks partition-level metrics such as replication lag and partition size distribution. | . Role in Monitoring: . | Data Pipeline Efficiency: Monitors message throughput and latency to ensure efficient data processing and delivery. | Fault Detection: Detects anomalies and performance issues to prevent data processing delays and disruptions. | . ",
+    "url": "/docs/concepts/metrics/#metrics-for-kafka-monitoring",
+    
+    "relUrl": "/docs/concepts/metrics/#metrics-for-kafka-monitoring"
+  },"27": {
+    "doc": "Metrics",
+    "title": "Metrics for Linux System Monitoring",
+    "content": "Key Metrics: . | CPU Utilization: Monitors CPU usage to assess system load and performance. | Memory Usage: Tracks memory utilization to prevent memory-related performance issues. | Disk I/O: Measures disk read/write operations to optimize disk performance and prevent bottlenecks. | . Role in Monitoring: . | Performance Tuning: Identifies resource bottlenecks and optimizes system configuration for improved performance. | Capacity Planning: Forecasts resource requirements and allocates resources based on utilization trends to prevent resource exhaustion. | . ",
+    "url": "/docs/concepts/metrics/#metrics-for-linux-system-monitoring",
+    
+    "relUrl": "/docs/concepts/metrics/#metrics-for-linux-system-monitoring"
+  },"28": {
+    "doc": "Metrics",
+    "title": "Metrics for HTTP Server Monitoring",
+    "content": "Key Metrics: . | Request Rate: Measures the rate of incoming HTTP requests to assess server load. | Response Time: Tracks response times to ensure timely delivery of HTTP responses. | Error Rate: Monitors the frequency of HTTP errors to detect issues affecting service availability. | . Role in Monitoring: . | Service Availability: Ensures high availability of HTTP services by monitoring request rates and error rates. | Performance Optimization: Optimizes server configuration and resource allocation to improve response times and reduce error rates. | . Metrics are essential for monitoring various components in our system, including MySQL, Kafka, Linux systems, and HTTP servers. By leveraging metrics effectively, we can ensure optimal performance, reliability, and availability of our system components, ultimately delivering a superior user experience. ",
+    "url": "/docs/concepts/metrics/#metrics-for-http-server-monitoring",
+    
+    "relUrl": "/docs/concepts/metrics/#metrics-for-http-server-monitoring"
+  },"29": {
+    "doc": "Metrics",
+    "title": "Conclusion",
+    "content": "Metrics are indispensable in monitoring systems and applications, providing valuable insights for optimizing performance, ensuring reliability, and meeting business objectives. By understanding the different types of metrics and their role in monitoring, organizations can effectively manage their IT infrastructure and deliver superior user experiences. ",
+    "url": "/docs/concepts/metrics/#conclusion",
+    
+    "relUrl": "/docs/concepts/metrics/#conclusion"
+  },"30": {
+    "doc": "Concepts",
+    "title": "References",
+    "content": ". You can find the important concepts that are used in ZoomPhant and would help you to use ZoomPhant in more advanced ways. ",
+    "url": "/docs/concepts/#references",
+    
+    "relUrl": "/docs/concepts/#references"
+  },"31": {
+    "doc": "Concepts",
+    "title": "Concepts",
+    "content": " ",
+    "url": "/docs/concepts/",
+    
+    "relUrl": "/docs/concepts/"
+  },"32": {
+    "doc": "Alert Settings",
+    "title": "Alert Settings",
+    "content": ". ",
+    "url": "/docs/manual/00_alert/alert/",
+    
+    "relUrl": "/docs/manual/00_alert/alert/"
+  },"33": {
+    "doc": "Alert Settings",
+    "title": "Alert Configuration",
+    "content": "To utilize the alerting feature, you need to configure alert rules first. Our system comes with default alert rules, covering common scenarios. Additionally, you can create custom alert rules according to your specific requirements. There are two main ways to create alert configurations: the general method and the quick method. General Method . Navigate to the Alert Configurations page by clicking on Settings -&gt; Alert Configurations in the sidebar. Next, click on the “Add Alert Configuration” button at the top-left corner to enter the alert configuration creation page. On the alert configuration creation page, you need to configure the following: . | Alert Name: Each alert name must be unique within the system. It is recommended to use descriptive names for easier management and identification during alert occurrences. | Alert Metrics: Select the metrics that trigger the alert. We offer three common categories: . | Application: Alerts for devices of the same type, such as triggering an alert when CPU usage exceeds 80% for all Linux servers. | Service: Alerts specific to individual services, such as triggering an alert when CPU usage exceeds 70% for a specific Linux server. | Tag: Alerts for a custom group of devices. You can group devices on the service page and then trigger alerts for the group, such as triggering an alert when CPU usage exceeds 50% for all Linux servers in the “db” group. | . | . After selecting the alert metrics, the system will automatically load all metrics for devices in the selected category. You can use the search box to filter and select the desired metrics for alert configuration. Once the desired metrics are selected, the system will list all metrics that meet the conditions, allowing you to review and set appropriate threshold values for alerting. You can also add additional filtering conditions and modify metric selections if necessary. After confirming the metrics, click the “Select to metrics” button to proceed. Here, you can add more metrics and perform calculations. Click the “Add Expression” button to input calculation formulas and select the metric as the trigger for the alert. Once the data is confirmed, click the “Finalize Settings” button to proceed to the next step. Here are some key configurations: . | Notification: Select a notification chain to send alert notifications. Without a notification chain, the system will not send any notifications, and you can only view alerts by logging into the system. | Threshold: Set appropriate threshold values for the desired alert level. You can also specify the duration after which an alert should be triggered and whether to alert for missing data. Note that if there are overlapping intervals for different alert levels, the higher-level alert will be triggered. | Description: Provide a description for the alert, including relevant information to help identify the cause of the alert. It is recommended to include essential information such as alert name, alert level, trigger value, and affected objects. Our system templates include basic information, but you can add more details to facilitate quick identification and resolution. | . After configuring the alert settings, click the “OK” button to save the alert rule. Quick Method . First, navigate to the service page and select Tag, Application, or Service to view the dashboard for devices. You will notice alert icons on these widgets. Click on the alert icon to enter the alert configuration page, where the system has already pre-selected the widget’s metrics. You can directly click the “Finalize Settings” button to configure alert thresholds and notifications. After configuring the alert settings, click the “OK” button to save the alert rule. Both methods of creating alert configurations can be managed on the Alert Configurations page and viewed on the Alert page for each service. If you do not see the alert in the corresponding service, check if the alert configuration scope is set correctly. ",
+    "url": "/docs/manual/00_alert/alert/#alert-configuration",
+    
+    "relUrl": "/docs/manual/00_alert/alert/#alert-configuration"
+  },"34": {
+    "doc": "Alert Delivery",
+    "title": "Alert Delivery",
+    "content": ". In ZoomPhant, alerts are delivered using an alert delivery chain. The chain consists of one or more stages, with each stage be called an alert delivery channel. An alert delivery channel can appear in multiple in mulitple alert delivery channels. Following diagram can give you a rough idea about alert delivery chains and alert delivery channels. Here user defines few alert delivery channels, with each channel contains one or more recipients. The alert delivery channels can be used by one or more alert delivery chains. Create Alert Delivery Channel . Alert Delivery Channel is the basic building blocks for alert delivery chains. It is used to group the recipients together so customers can re-use the group of recipients in different alert deliverychains. | To create a delivery channel, first click Settings | Alert Delivery to go to alert delivery page: | . In this page, you can manage all your alert delivery chains and channels: . Click Add Delivery Channel and you’ll be shown the Add Alert Delivery Channel dialog: . You need to provide following information . | Name of the channel, the name will be used in creating Alert Delivery Chains. | Optionally you can set the channel to default channel. In System only one channel could be set to as default channel, where in certain situations the system can use the default channel to send notifications. | Type: type of the channel. In one channel, you can just create same type of receipients, it could be . | Email: using email address as recipients | SMS: using phone number to receive SMS messages | Voice: using phone number to receive voice notifications | Webhook: Using custom web hook to receive notifications . | We have customized few frequently using web hooks like Slack, Wechat, etc. for convenience | . | . | Recipients: depends on above type, it could be email address list, phone numbers or webhook addresses | Description: A short description of the channel | . After you have input necessary information, you can click the Test to make a test to make sure the receipients could receive a test message. Once created, the alert delivery channels will be available in creating or managing your alert delivery chains. Create Alert Delivery Chain . When system generating alerts, it will using alert delivery chains to send the notifications. Please refer to Create Alerting to understand how alert delivery chains are used in alert settings. To create an alert delivery chain, click the Add Delivery Chain in Alert Delivery page and a dialog will be popped up as follows: . Before creating the stages or steps, you shall provide following information . | Chain name: names for you to using the alert delivery chain in other parts of the system | Default Chain: you can set the chain to default so when creating alert nofications, you need simply choosing “Using default”, which will be automatically mapped to this chain. But in system only one default chain could be set. | Descriptions: a short description about the purpose of the chain | . Once those information ready, you can create your stages or steps by click Add Step to create a new step or drag drop to chain the order of steps. Change Order Of Existing Steps . You can drag this icon in Order column to change the orders of steps: . Creating New Step . You can create new step and append it as the last stage by click the Add Step button: . Here in each step, you can choose one or more channels, and the period field is used to decide how long it will take to escalate the notification from previous step to current step. Once alert delivery chains are created, you can now head to create alerting rules etc. to use the created alert delivery chains. ",
+    "url": "/docs/manual/00_alert/delivery/",
+    
+    "relUrl": "/docs/manual/00_alert/delivery/"
+  },"35": {
+    "doc": "Alerting & Notifications",
+    "title": "Alerting &amp; Notifications",
+    "content": ". One important function of a monitoring system is to identify exceptional or abnormal conditions. When such something unexpected happens, the monitoring system shall generate alerts and get users notified. In this section, we will let you know how ZoomPhant allows users to define alerts and get users be updated for generated alerts. ",
+    "url": "/docs/manual/00_alert/#alerting--notifications",
+    
+    "relUrl": "/docs/manual/00_alert/#alerting--notifications"
+  },"36": {
+    "doc": "Alerting & Notifications",
+    "title": "Alerting &amp; Delivery Process",
+    "content": "Below diagram describes how ZoomPhant generates alerts and delivers notifications to users . As shown in above diagram, ZoomPhant will first evaluate alerts against time series and then, for generated alerts, deliver the alerts to end users using delivery channel and stage settings. Alert Evaluation . ZoomPhant will have alert evaluators evaluating the timeseries in a real-time way to identify exceptions or abnormals according to Alerting Rules defined by users in their alerting settings. Once an exception is identified, it will generate a stateful alert, and the alerts will then be queued for delivery. Please refer to Alerting Settings for more on how to define alerting rules. Alert Delivery . Alert delivery in ZoomPhant is a staged process using a concept called Alert Delivery Chain, which contains stages of Alert Channels. In each channel one or more recipients would be defined to receive notifications via email, Webhook, SMS or voice. When an alert is generated, the first stage will be activated and alerts will be sent to recipients defined in the channels of first stage, and it will then escalate gradually along the stages if no actions is detected by recipients in current channel. Please refer to Alert Delivery for more on how to manage your alert channels and alert delivery chains as well how the alert delivery chains are escalated. ",
+    "url": "/docs/manual/00_alert/#alerting--delivery-process",
+    
+    "relUrl": "/docs/manual/00_alert/#alerting--delivery-process"
+  },"37": {
+    "doc": "Alerting & Notifications",
+    "title": "Alerting & Notifications",
+    "content": " ",
+    "url": "/docs/manual/00_alert/",
+    
+    "relUrl": "/docs/manual/00_alert/"
+  },"38": {
+    "doc": "Monitoring Service",
+    "title": "Monitoring Service",
+    "content": ". In ZoomPhant, a monitoring task you created will be called a Monitoring Service. You create a Monitoring Service from a plugin created by yourself or provided by ZoomPhant or 3rd parties. ",
+    "url": "/docs/manual/01_service/",
+    
+    "relUrl": "/docs/manual/01_service/"
+  },"39": {
+    "doc": "Monitoring Service",
+    "title": "Start Adding Monitoring Service",
+    "content": "To add a monitoring service, you can first choose the plugins. Click the add button on top right of the Monitoring Service List pannel so you can start adding a service: . The first step is to choose what kind of monitoring service you want to add: . | Infrastructure Monitoring Service: this is a special monitoring service that it would require you to create a data collecting agent along adding this service. The data collecting agent is used to collect data for this service and other monitoring services that depends on this infrastructure. | Application Or Service: this is the most common monitoring service to monitor a specific object like a remote host, a database server or a website, etc. | . Once you decided the kind of monitoring services, you will start to add the monitoring services by choosing to add just one or add a batch of similar services (like monitoring a group of serviers or bunch of database servers). We’ll have more on batch adding monitoring service later, but for now, let’s suppose we would try to add a single monitoring service for an application or service, so just click the “Single addition” under Applications type. ",
+    "url": "/docs/manual/01_service/#start-adding-monitoring-service",
+    
+    "relUrl": "/docs/manual/01_service/#start-adding-monitoring-service"
+  },"40": {
+    "doc": "Monitoring Service",
+    "title": "Choosing Monitoring Plugin",
+    "content": "Once you clicked the “Single Addition” button, you’ll be asked to choose a Monitoring Plugin in the plugin selector. You can create your own monitoring plugin or using plugins released by ZoomPhant or 3rd parties. Allong with the ZoomPhant package released, we included the most commonly used plugins for your choose: . The plugin selector will list all the plugins available, including those you created and the plugins released along with ZoomPhant and other 3rd parties. On top of the selector, you can do filtering by input the keyword to search for plugins you want, or you can decide the plugin from . | Recently Used List: Usu. in a business, you’ll just use few of all the plugins, you can find those you commonly used to avoid searching in a long list | User Customized Plugins: You may created your own or instantiated a plugin for a plugin template. Those will be shown here so you can try to find them quickly | System Plugins: those are the plugins created and managed by ZoomPhant | . Once you decide the plugin (here, suppose we want to choose the DNS Checker to monitor a domain), just click it and a wizard will shown up to add the monitor service. ",
+    "url": "/docs/manual/01_service/#choosing-monitoring-plugin",
+    
+    "relUrl": "/docs/manual/01_service/#choosing-monitoring-plugin"
+  },"41": {
+    "doc": "Monitoring Service",
+    "title": "Providing Monitoring Service Information",
+    "content": "The first page of the wizard would be asking you to provide basic information as shown below . Here you shall provide information like . | Display: the name for the Monitor Service | Associated Collector: which data collecting agent you shall use to collect data for this monitor service | Tags: one or more tags you want to group your monitor service | Description: a short optional description of your monitor service | . Click “Next” once you fill in those information . ",
+    "url": "/docs/manual/01_service/#providing-monitoring-service-information",
+    
+    "relUrl": "/docs/manual/01_service/#providing-monitoring-service-information"
+  },"42": {
+    "doc": "Monitoring Service",
+    "title": "Provide Parameters and Testing Monitor Service",
+    "content": "In most cases, a plugin would define one or more parameters for you to input to create a monitor service. Those parameters usu. are the remote address, username / password to access certain data, etc. Parameters could be optional or mandatory, and if it is mandatory and no default value provided, you’ll have to fill in before you can continue, as shown in below diagram (the host parameter) . Once you have input the parameters and if you want to make sure the data collecting could work as expected, you can click the “Script Test” button to bring the “Script Test” dialog to do some tests before you can continue. In the “Script Test” dialog, you first set a timeout value (default to 30 seconds) and then click the “Run Test” button, the system will start to do the test and presents a “View the results” button once it finishes, if you click this button the raw data will be presented to you so you can know what kind of data is collected and if the data is you expected. If anything goes wrong, an error message will be presented instead of the “View the results” button. Click Next so you can complete adding the monitoring service. ",
+    "url": "/docs/manual/01_service/#provide-parameters-and-testing-monitor-service",
+    
+    "relUrl": "/docs/manual/01_service/#provide-parameters-and-testing-monitor-service"
+  },"43": {
+    "doc": "Monitoring Service",
+    "title": "Complete Adding Monitor Service",
+    "content": "Once you reach here, your monitor service has been successfully added. You can choose to close the wizard by click the “Finish” button to jump to the page to start checking the data for your service by clicking “View Services” button in the middle of the wizard. ",
+    "url": "/docs/manual/01_service/#complete-adding-monitor-service",
+    
+    "relUrl": "/docs/manual/01_service/#complete-adding-monitor-service"
+  },"44": {
+    "doc": "Data Collectors",
+    "title": "Data Collectors",
+    "content": ". Data collecting is one of the important functions one monitoring solution shall have and ZoomPhant provides this part of function using Data Collecting Agents or simply Data Collectors. In ZoomPhant all-in-one installation, a pre-installed docker-based collector has been installed already, so you can start your monitoring immediately. But still you may need to install additional collectors for special in-depth infrastructure monitoring or to meet other business demands, you shall follow the instructions below to install your other collectors. ",
+    "url": "/docs/manual/02_collector/",
+    
+    "relUrl": "/docs/manual/02_collector/"
+  },"45": {
+    "doc": "Data Collectors",
+    "title": "Installing Collectors",
+    "content": "Collector is a separate package running on user provided infrastructures. By installing a collector, you need to download corresponding collector package and execute the installation command with provided parameter so the collector could connect and register to server. After the collector is installed and running on the infrastructure, the infrastructure is also get monitored, in this respective, we would say that we have created a special infrastructure montiroing service. ",
+    "url": "/docs/manual/02_collector/#installing-collectors",
+    
+    "relUrl": "/docs/manual/02_collector/#installing-collectors"
+  },"46": {
+    "doc": "Data Collectors",
+    "title": "Collector Infrastructure Selection",
+    "content": "The first step to install a collector is to decide what kind of collectors you want to install. You need to chose the collector based on the underlying infrastructure you are using. ZoomPhant supports different collecors running on different infrastructures . | Linux Infrastructure Collector: For linux or unix-like systems, you need to install the Linux Infrastructure Collectors. It can perform various tasks based on common protocols or linux utilities. For more details please refer to Linux Collector | Windows Infrustructure Collector: Since Windows has special requirements, we provide this type of collector to complete Windows specific data collecting tasks besides the other common tasks. You shall install this type of collector on a Windows system only. For more details please refer to Windows Collector | Kubernetes Infrastructure Collector: As the name suggests, this type of collectors need be installed in a Kubernetes cluster and it can collect data using Kubernetes specific mechanisms. You can find more information at Kubernetes Collector | . Note: Besides above types of collectors, we also support a general type of collector, the docker-based collector, which simply requires you to have docker enironment installed. First you need to click the Add Monitoring Service button as described in Monitoring Service by choosing Infrastructures as shown below . Once you click “Single addition” you shall be brought to the collector installation wizard. Here, you just click the type of the infrastructure you want to monitor and you will be brought to the wizard for adding infrastructure-based collector wizard. The wizard would have three steps, for you to give basic information of the collector, getting installation instructions and to wait for collector connecting up. Here we would suppose you have chosen Linux collector to complete this document. ",
+    "url": "/docs/manual/02_collector/#collector-infrastructure-selection",
+    
+    "relUrl": "/docs/manual/02_collector/#collector-infrastructure-selection"
+  },"47": {
+    "doc": "Data Collectors",
+    "title": "Collector Installation Wizard",
+    "content": "As said above, when creating a collector, a special monitoring service will be created in the system to get the underlying infrastructure be monitored, this means the process to adding a collector is the same as creating a (special) monitoring service. With this in mind, adding a collector would be almost the same as adding a monitoring service, and you’ll have to finish following three steps . | Select infrastructure | Provide infrastructure information (parameters for the corresponding monitoring service) | Install and verify the installation | . In this documents we’ll go through the overall process, for detailed infrastructure-based collectors, you can visit corresponding documents for more information: . | For Linux Infrastructure, Linux Collector | For Windows Infrastructure, Windows Collector | For Kubernetes Infrastructue, Kubernetes Collector | . Select Infrastructure . The first step will ask you to select one of the three types of infrastructures ZoomPhant supports: . Here, as an example, you can just click the Linux to go to next step. Infrastructure Information &amp; Settings . After the infrastructure running the collector is selected, you’ll got the second step to provide necessary information like . | the infrastructure name, which will also be used to identify the collector | if you want to make in-depth monitoring of the infrastructure. If you choose yes (which is default), the collector may take extra resource to make in-depth monitoring of the infrastructure | . Below diagrams show the step for a Linux collector. Finish Installation . The last step will help you to finish the installation by providing you detailed installation instructions and a way to checking if the installation is successful or not: . As shown in above dialog, for Linux collector, you can have two ways to download and install the collector . | If your infrastructure has direct Internet access, just copy the full installation command as shown in above Option 1 | Otherwise, you can download it first and save it as zoomphant-collector.bin and use the command shown in above Option 2 | . Note: before copying the command, make sure you have correctly select the possible OS architecture (or bitness). Once you have successfully executed the command, you can click the “Verify” button, the server will try to wait the collector to connect and register and report a success message if everything is OK: . ### . ",
+    "url": "/docs/manual/02_collector/#collector-installation-wizard",
+    
+    "relUrl": "/docs/manual/02_collector/#collector-installation-wizard"
+  },"48": {
+    "doc": "Add Log Monitoring",
+    "title": "Collecting Local Logs",
+    "content": "Local logs are logs that can be accessed by collector locally (on local disk or NFS mapped drive). To collect such logs, just select “Collector Local File” from Add Service and provides necessary parameters (the path to the log file) as follows: . Here . | path: this is the required param identify the log files to read. Collector will automatically handle situation like file rotation, etc. | defaultReadPolicy: how to start to read the file, could be start or end, meaning reading log file from start or end. Default to end. | Log Parser: this is an advanced option, used for customer to decide how to parsing the log lines to extract information like timestamp, severity, etc. We will provide separate documentation for this in the future. | . ",
+    "url": "/docs/manual/03_log/add/#collecting-local-logs",
+    
+    "relUrl": "/docs/manual/03_log/add/#collecting-local-logs"
+  },"49": {
+    "doc": "Add Log Monitoring",
+    "title": "Collecting Kubernets Logs",
+    "content": "Collecting Kubernetes logs is hard as the PODS might migrating from node to node and create containers once for a while etc. ZoomPhant helps user to solve such problem by providing dedicated Kubernetes Logs collection, before you can start to collect Kubernetes logs, you shall . | Have the Kubernetes cluster installed ZoomPhant collector, refer to Install Collector | Know where your log comes from | . Once above information ready, you just select “Kubernetes Logs(Collector)” from Add Service and provides necessary parameters as follows: . Note: before providing the collecting parameters, make sure you have select the Kuberentes collector in previous step . Here, the . | namespace: this is required, the namespace of the POD that generating the logs | service: This is optional, the service name you want to collect logs for. If given you can ignore below pod parameter | pod: This is optional. If above service is not given, you must provide the name of the pod or a RE2 expression to filter the POD for log collecting | port: This is optional. A POD may have more than one containers, if you want to collect logs for certain container openning the given port, you can use this parameter | . ",
+    "url": "/docs/manual/03_log/add/#collecting-kubernets-logs",
+    
+    "relUrl": "/docs/manual/03_log/add/#collecting-kubernets-logs"
+  },"50": {
+    "doc": "Add Log Monitoring",
+    "title": "About Log Parser",
+    "content": "ZoomPhant support very powerful log processing functions with Log Parser, such as: . | Ignore certain part of the log, e.g. some logs has common prefix that are redundant | Converting logs: e.g. for Kubernetes or docker logs, it is in JSON format, we can convert the JSON logs to more readable text lines | Label extraction: User can customize the log processing to set important label like level or severity or event timestamp when the log is generated, etc. | . We will have additional documents for this paramether in the future. ",
+    "url": "/docs/manual/03_log/add/#about-log-parser",
+    
+    "relUrl": "/docs/manual/03_log/add/#about-log-parser"
+  },"51": {
+    "doc": "Add Log Monitoring",
+    "title": "Add Log Monitoring",
+    "content": "ZoomPhant provides various ways to collect log data . ",
+    "url": "/docs/manual/03_log/add/",
+    
+    "relUrl": "/docs/manual/03_log/add/"
+  },"52": {
+    "doc": "ZoomPhant Log Query Language",
+    "title": "Syntax",
+    "content": "ZoomPhant Log Query Language is a staged stream processing language, the statement is separated by pipe ‘|’ into different processing stage and having an overall syntax as follows . { streamFiltering } keywordsFiltering | processorFunc1 [args...] | processorFunc2 [args...] /as displayType . In above stage, the first stage is a filtering stage (more details below), this stage is optional by strongly recommended, followed by one or more processing stage, and could be ended with an optinal display specification. Before explaining the details of the processing functions, let’s see how strings could be expressed in the syntax. Strings are widely used as label value, keyword and processor arguments, etc. We support different ways to express a string, which can bring convenience for users in different situations. Double Quoted Strings . This is the most common way to express strings: quote the string in double quotes, and in the string there shall have no double quote. Below are examples of valid double quoted strings. \"error\" \"Error\" \"He's great\" \"/api/ping\" . And it is illegal to have a double quote in the double quoted string: . \"invalid \"double quote\"\" . Single Quoted Strings . We can use single quoted string to express strings with double quotes, but in single quoted strings there shall be no single quote. ‘Error’ ‘The \"test\" string is OK' '/api/ping' . Single quote is not allowed in single quoted strings: . 'invalid 'single quote'' . Tick Quoted Strings . In case you need to use both single and double quotes in your string, you can use the tick quoted strings, as shown below: . `Error` `The \"double quoted\" string and 'single quoted' string` `/api/ping` . But tick shall not show up in tick quoted strings: . `Illegal `back quote`` . RE2 Expression . RE2 expression is a special string, we use slash ‘/’ to enclose such strings, as shown below . /.*mysql.*/ /192\\.168\\.3\\.\\d{1,3}/ . For more information about RE2 syntax, you can refer to https://github.com/google/re2/wiki/Syntax. ",
+    "url": "/docs/manual/03_log/syntax/#syntax",
+    
+    "relUrl": "/docs/manual/03_log/syntax/#syntax"
+  },"53": {
+    "doc": "ZoomPhant Log Query Language",
+    "title": "Log Filtering",
+    "content": "Log volumes could be huge, so when querying and processing logs, we shall filter those logs that we want to process first to improve the efficency. There are two types of filtering: . | Log Stream Filtering: A log stream is identified by the label set, so this kind of filtering will try to filter the label values to select the correct stream to process. | Keyword Fitlering: Keyword filtering can be used to further filter log lines with certain keywords. | . As said above, each log query statement shall try to use filters to reduce the volume of queried logs to improve the performance. Log Stream Filtering . As said above, log stream filtering filters against the log labels. The basic syntax for filtering a label is as follows: . labelName &lt;Operator&gt; labelValue . Depends on the operator, the labelValue could be . | Double, single or tick quoted strings | RE2 regular expressions enclosed by slashes | . Here the operator could be: . | = The label value matches the given string exactly | != The label value doesn’t exactly match the given string | ~ The label value matches the given RE2 expression | !~ The label value doesn’t match the given RE2 expression | . Two or more label filters could be and-ed or or-ed together to create a complex log stream filter against multiple labels: . _instanceName ~ \"prod.*\" and _category=\"database\" . Keyword Filtering . Keywords filtering will be used on log lines directly. Used with log stream filtering, it can further reduce the volume of the logs to be queried and processed. Keywords can be any strings in double, single or tick quotes, it can also be a RE2 expression in certain situations. Following are valid keywords: . | Single quoted string keyword: ‘keyword’ | Double quoted string keyword: “keyword” | Keyword in RE2 expression: /key?word/ | . Like label filters, we can use and, or and not keywords to create complex keyword filtering against multiple keyworkds, for example: . \"Error\" or \"Exception\" . or . /.*mysql.*/ and not \"database\" . Using Filtering . When using filtering, we support two ways to specify label and keyword filters . | Using Literals: this can only be used on start of query statement | Using Functions: We can add one or more processing stages using filtering functions | . Using Literals . Filtering literals can only be used at start of a query statement, we would recommend user to always starts with filtering literals to improve log querying and processing. The syntax for filtering literals is as follows: . { &lt;stream filtering&gt; } &lt;keyword filtering&gt; . In this syntax, the filtering contains two optional parts . | the stream filters, surounded by brackets | followed by optional keyword filters | . Following are some examples using above syntax . {_source~/.*prod-\\d+/ and _cagetory=\"webserver\"} \"Error\" or \"Warn\" {level=\"error\" or level=\"warn\"} \"/api/ping\" and \"error\" . Using Functions . Filering literals can only be used at start of query statement. To make your query statement easier to understand, you can use filtering functions, which can appear at different stages. Filtering functions has following syntax . funcName filterExpression . We will have more details for supported filtering functions later, for now we can see below examples for using filtering functions . grep \"Error\" | grep -v \"website\" match \"Error\" or \"Warn\" | filter _category=\"database\" filter _source!~/.*mysql.*/ and _level=\"error\" | grep -v \"test\" . ",
+    "url": "/docs/manual/03_log/syntax/#log-filtering",
+    
+    "relUrl": "/docs/manual/03_log/syntax/#log-filtering"
+  },"54": {
+    "doc": "ZoomPhant Log Query Language",
+    "title": "Log Processing &amp; Displaying",
+    "content": "After we have filtered out the logs we want to process, we may need to further processing the logs like extracting certain information from log lines, counting the lines and find patterns about appearances of certain keywords, etc. We use functions to do such processing, and the processed result could be presented in different formats using the displaying options. ",
+    "url": "/docs/manual/03_log/syntax/#log-processing--displaying",
+    
+    "relUrl": "/docs/manual/03_log/syntax/#log-processing--displaying"
+  },"55": {
+    "doc": "ZoomPhant Log Query Language",
+    "title": "Log Functions",
+    "content": "We call the each processing method a function, and according to the type of processing, we can group the functions as: . | Log Filtering Functions: Used to filter logs using labels or keywords to achieve the same purpose as using filtering literals mentioned above. | Log Expanding Functions: Used to generate dynamic labels, converting log lines, extracting information from log labels or log lines, etc. | Log Processing Functions: Used to create timeseries from log streams and do analyzing / aggregations on the timeseries. | . Log Filtering Functions . We support following special functions to filter against log labels (streams) and log lines (keywords) . | grep: Used to filter log lines against one keyword, an optional -v option could be used to inverse the effect, as shown in below examples . | grep “12345” . | Finding all the loglines that contains 12345 | . | grep -v 12345 . | Finding all the logs that not contains 12345 | . | . | match: Used to filter log lines against multiple keywords by using keyword filtering expressions. User can use brackets to change the default processing order, for example: . | match (“Failed” or “failed”) and /192.168.\\d{1,3}.\\d{1,3}/ . | Find all log lines containing one of “Failed” and “failed”, and also with a matching IP address | . | match “error” and “network” . | Find all lines containing both “error” and “network” | . | . | filter: Used to filter log streams or log labels. Like above match function, it expects user to provide a label filtering expression as arguments, for example . | filter service = “finance” . | Filter all log streams with a service label with value “finance” | . | filter location != “Canada” . | Filter all log streams with a location label not equal to “Canada” | . | filter name ~ /Instance .*/ and _category = “website” . | Filter log streams with name label matching given RE2 exrepssion and _category label set to “website” | . | . | . Log Expanding Functions . Those functions can help convert log stream by expanding labels or cnverting the log lines. For now we support following functions . | json: Take the log line as valid JSON and extract the fields in this JSON as labels. Existing labels may be overwritten by this operation. For example . | json . | with out argument, each field will be generated as a label | . | json location, size . | Extract the location and size field to create new location and size labels | . | . | pattern: This is the same as the Loki pattern processing function, which can be used to quickly extract pattern form log lines and generate new labels. It would expect a pattern as argument and use it to match the log lines, using blank space as separator. You can give a name using &lt;labelNamne&gt; to generate a label with the matching part or special &lt;_&gt; to ignore that part. For example, . | pattern ‘&lt;ip&gt; - - \"\\&lt;method\\&gt; \\&lt;uri\\&gt; \" \\&lt;status\\&gt; \\&lt;size\\&gt; ' . | Match a log line, with the first part used to generate ip, method, uri, status and size labels | . | . | regexp: Using RE2 syntax to matching named pattern and using the name to generate labels . | regexp /POST (?P.*) .* (?P\\d+) (?P\\d+)/ . | Matching the url, code and size part to generate labels accordingly | . | . | logfmt: Take the log lines as following the logfmt format and convert the key=value pairs as labels. You can visit following link for more information . | https://www.brandur.org/logfmt | . | . More log expanding functions will be supported in the future. Log Processing Functions . Log lines are hard to extract useful information and to display. We can use log processing functions to vectorize the loglines as time series to identify patterns and presenting to customers. To processing the log lines for above purpose, we need to through following steps . | Vectorize logs: This is the first step and we would generate the initial timeseries from the log lines which can be further processed and displayed | Timeseries processing: We can using various aggregation and processing functions to process the generated timeseries. | Data presenting: With the final data, we can shall it in a way easier for user to understand the data | . Log Vectorizing Function . ZoomPhant support a range function to vectorize the log lines or log labels in given steps: . range &lt;vecorizingRange or step&gt; use convertingFunc [&lt;convertingParam1&gt; ...] range &lt;labelName&gt; &lt;vecorizingRange or step&gt; use convertingFunc [&lt;convertingParam1&gt; ...] [without|by (labelSet)] . In above syntax . | the first is used to vectorize against log lines | the second is used to vectorize against given labelName . | When aggregate against labels, a labelSet can be provided to filter or aggregation log streams | . | . In both cases, . | vecorizingRange or step is used to given the a time range to vectorize the log, it is given in format like 5m, 1h or auto so ZoomPhant can automatically decide the value. | convertingFunc is a name to decide what kind of function we can use to do the vectorizization, as shown below | . Converting Function for Log Lines . If we try to vectorize against the log lines, we can using following converting functions . | rate: Number of log lines generated per second every given time range (speed) | count: Number of log lines generated in given time range | bytes_rate: Number of bytes per second generated every given time range (speed) | bytes_count: Number of bytes generated in given time range | absent: if any logs generated every given time range. If yes a vector with value 1 is returned, otherwise an empty vector is returned | . Converting Function for Log Labels . To vectorize against a given label following function could be used . | rate：Taken the label value as a number, the change rate of the accumulated sum in given time range | sum：Taken the label value as a number, the accumulated sum in given time range | avg：Taken the label value as a number, the average value in given time range | max：Taken the label value as a number, the maximum value in given time range | min：Taken the label value as a number, the minimum value in given time range | first：Taken the label value as a number, the first non-null value in given time range | last：Taken the label value as a number, the last non-null value in given time range | stdvar：Taken the label value as a number, the standard variation value in given time range | stddev：Taken the label value as a number, the standard deviation value in given time range | quantile：Taken the label value as a number, the proportion of values above given percentile. The percentile is given as a number like 90 as the first argument and if missing taken as 90 percentile | absent：If no value in gime time range, return an empty vector, otherwise an vector with value 1 is returned | . Log Processing Functions . Once we have vectorized timeseries data, we can further processing the timeseries using log processing functions in following syntax . &lt;funcName&gt; [&lt;funcParam1&gt; ...] (without|by) (labelSet) . So the log processing functions can further filter / aggregation the timeseries using given label set, and following functions are supported . | sum: Calculate theaccumulated value aggregated by given label set | avg: Calculate average value aggregated by given label set | min: Get the minimum value aggregated by given label set | max: Get maximum value aggregated by given label set | stdvar: Calculate the standard variation aggregated by given label set | stddev: Calculate the standard deviation aggregated by given label set | count: Count the number of streams aggregated by the given label set | top: Return the top N series aggregated by the given labelset, N is given as the first param, default to 3 if not given | bottom: Return the bottom N series aggregated by the given labelset, N is given as the first param, default to 3 if not given | . Log Display Options . By default we display log data as just log lines and timeseries data as colored lines. User can use the display option to override the display if it applies . /as &lt;displayOption&gt; . Here, displayOption could be one of following . | line or lines: Display the timeseries data as lines, this is the default | pie or pies: Display the timeseries as pie diagrams | bar or bars: Display the timeseries as bar diagrams | area or areas: Display the timeseries as areas. | stack or stacks: Display the timeseries as stacked areas. | . ",
+    "url": "/docs/manual/03_log/syntax/#log-functions",
+    
+    "relUrl": "/docs/manual/03_log/syntax/#log-functions"
+  },"56": {
+    "doc": "ZoomPhant Log Query Language",
+    "title": "ZoomPhant Log Query Language",
+    "content": "ZoomPhant using a streaming processing lanuage to process the logs, and a log processing statement may contain following parts: . | Log Filtering: Using labels or keywords to reduce the size of logs to be processed | Log Processing: Processing the filtered logs to do conversion / analyzing or grouping, etc. | Log Presenting: Decides how to present the processed logs, e.g. show as pure logs or a diagram in given shapes, etc. | . For a quick reference, you can refer to Log_Query_CheatSheet . ",
+    "url": "/docs/manual/03_log/syntax/",
+    
+    "relUrl": "/docs/manual/03_log/syntax/"
+  },"57": {
+    "doc": "Log Monitoring Use-cases",
+    "title": "Filtering Logs",
+    "content": "Suppose we just want to process the POST requests, let’s filter the logs using following statement . {method=\"POST\"} . By applying the filter, we can see something like follows . If we want to filter non-POST requests, we can using a filter statement like follows . {method!=\"POST\"} . Note: here we shall switch to expert mode for this as selection mode only for more basic usage . Continue with above example, let’s just try to filter logs for some special apis: . {method!=\"POST\"} \"/api/collectors/mc2\" or \"/api/logs?\" . We now have following: . ",
+    "url": "/docs/manual/03_log/usecase/#filtering-logs",
+    
+    "relUrl": "/docs/manual/03_log/usecase/#filtering-logs"
+  },"58": {
+    "doc": "Log Monitoring Use-cases",
+    "title": "Using Log Processing Functions",
+    "content": "With above filtering, we now limit our logs to a much smaller set, and we can further processing our logs to . | Extract more important information dynamically | Further filtering / processing the processed logs | . Extracting More Labels . In the raw nginx log, there are no labels like ip, referer, etc.: . But those labels might be very useful to understand Nginx logs, we can try to extract them from the logs lines as . | ip: the IP address sending the request | ver: HTTP request version | size: the size in bytes of the responses from the server | referer: the page sending the request (i.e. referer of the request) | . We can use pattern function to get this done: . {method!=\"POST\"} \"/api/collectors/mc2\" or \"/api/logs?\" | pattern `&lt;ip&gt; &lt;_&gt; HTTP/&lt;ver&gt;\" &lt;_&gt; &lt;size&gt; \"&lt;referer&gt;\" &lt;_&gt;` . Note: we are using ticked string here to be able to use double quotes in the pattern argument . Suppose we want to find requests that are not processed successfully (status != 200), we can expand our query statement with another filter stage as follows: . {method!=\"POST\"} \"/api/collectors/mc2\" or \"/api/logs?\" | pattern `&lt;ip&gt; &lt;_&gt; HTTP/&lt;ver&gt;\" &lt;_&gt; &lt;size&gt; \"&lt;referer&gt;\" &lt;_&gt;` | filter status!=\"200\" . We now have: . Vectorizing Logs and Display . Now suppose we want to see the pattern of the successful requests in a 5 minute step, we can do this using following query statement: . {method!=\"POST\"} \"/api/collectors/mc2\" or \"/api/logs?\" | pattern `&lt;ip&gt; &lt;_&gt; HTTP/&lt;ver&gt;\" &lt;_&gt; &lt;size&gt; \"&lt;referer&gt;\" &lt;_&gt;` | filter status=\"200\" and referer!=\"-\" | range 5m use count . We now have our output displayed in lines as follows: . We can try to get a stats by response size by sumiming against size using following statement . {method!=\"POST\"} \"/api/collectors/mc2\" or \"/api/logs?\" | pattern `&lt;ip&gt; &lt;_&gt; HTTP/&lt;ver&gt;\" &lt;_&gt; &lt;size&gt; \"&lt;referer&gt;\" &lt;_&gt;` | filter status=\"200\" and referer!=\"-\" | range 5m use count | sum by size . We now have: . If we want to take a look at current distribution by size, it would be better to view the data in pies, so let’s add pies display options as follows: . {method!=\"POST\"} \"/api/collectors/mc2\" or \"/api/logs?\" | pattern `&lt;ip&gt; &lt;_&gt; HTTP/&lt;ver&gt;\" &lt;_&gt; &lt;size&gt; \"&lt;referer&gt;\" &lt;_&gt;` | filter status=\"200\" and referer!=\"-\" | range 5m use count | sum by size /as pies . Now we would have data be shown in pies as following: . ",
+    "url": "/docs/manual/03_log/usecase/#using-log-processing-functions",
+    
+    "relUrl": "/docs/manual/03_log/usecase/#using-log-processing-functions"
+  },"59": {
+    "doc": "Log Monitoring Use-cases",
+    "title": "Log Monitoring Use-cases",
+    "content": "To help you understand the ZoomPhant Log Query Language, we using a concrete example to help you processing and understanding your logs. In our example, we will try to process the nginx logs generated with following format (refer to your nginx configuration): . log_format combined '$remote_addr - $remote_user [$time_local] ' '\"$request\" $status $body_bytes_sent ' '\"$http_referer\" \"$http_user_agent\"'; . Before we have performed any processing, the raw logs we have collected is something like follows: . ",
+    "url": "/docs/manual/03_log/usecase/",
+    
+    "relUrl": "/docs/manual/03_log/usecase/"
+  },"60": {
+    "doc": "Log Monitoring",
+    "title": "Log Monitoring",
+    "content": "ZoomPhant can monitor your logs!!! It means you can now put your logs and metrics together in one monitoring solution by using ZoomPhant . To use log monitoring, you don’t need to do any extra setting, just find one of the log monitoring plugins and start collecting your log. Within few seconds you can view your log data in your monitoring service dashboard or visiting the centrallized Log &amp; Event browsing page, as shown below . In the Overview tab of Log &amp; Event browsing page, you can see overall status of your log ingestion, and you can also find more details of your log monitoring services in the State View tab: . In above tab, you can view a state view of each of your log sources, if you click one of them you may be able to see a more detailed states about the events . You can click one of the shown events or simply click “Query” to start querying and processing logs from that source: . If you want to query logs for all sources, simply click the Query tab in the Log &amp; Event page,: . To query and process the logs, you’ll need to refer to our simple log processing language . ",
+    "url": "/docs/manual/03_log/",
+    
+    "relUrl": "/docs/manual/03_log/"
+  },"61": {
+    "doc": "Import Grafana Dashboard",
+    "title": "Import Grafana Dashboard",
+    "content": "Grafana is the most widely used opensource data presenting software and it has very greate support for Prometheus plugins by providing support to presenting the data collected by a Prometheus exporter. In this section will show you how to import a Grafana dashboard for your created custom plugin based on one of the template plugins. Finding Grafana Dashboard . First you need to find the correct Grafana dashboard for the custom plugin you have created. That’s the purpose of custom plugins to create from the same template: The template only defines the way for collecting data, but a custom monitoring plugin is more than just collecting data, it also defines how to presenting data! . In our example, let’s assume we have create a custom plugin for SpringBoot applications create a custom plugin for SpringBoot applications , by searching on Grafana for SpringBoot, we find the matching dashboard: . Click the matching dashboard and we can have the information we want to import in below step: . Import Grafana Dashboard . | Now goto “Settings | Custom Monitoring Plugins” page again, find the custom plugin we have created: | . Click the Settings icon and we shall see a dialog popped up: . In the dialog popped-up, if you have downloaded the Grafana dashboard definition file, select “Import From Grafana Dashboard File” button and choose the file you want to import, otherwise you shall click the “Import From Grafana” button and see the import dialog shown up: . Here, you shall paste in the Grafana dashboard ID (e.g. 12900 for above created SpringBoot dashboard) or the full url (e.g. https://grafana.com/grafana/dashboards/12900-springboot-apm-dashboard/ in our above example): . Wait few seconds, you shall see the dashboard has been imported and ready for use: . Click OK and if you navigate to a service created from this custom plugins, you shall see the dashboards you have imported with the data collected! . ",
+    "url": "/docs/manual/04_templates/grafana/",
+    
+    "relUrl": "/docs/manual/04_templates/grafana/"
+  },"62": {
+    "doc": "Customize Labels",
+    "title": "Removed Labels",
+    "content": "Usually a Prometheus Scraper would generate data with following two labels . | job: a name to identify the task of collecting the data | instance: used to identify source of the data, the value usu. is the host:port part of address or url of the target | . In ZoomPhant, since we collecting data in monitoring plugins in an integrated way, above labels no longer has any meaning and would thus be removed or replaced with ZoomPhant internal labels. ",
+    "url": "/docs/manual/04_templates/prom/labels/#removed-labels",
+    
+    "relUrl": "/docs/manual/04_templates/prom/labels/#removed-labels"
+  },"63": {
+    "doc": "Customize Labels",
+    "title": "Custom Labels",
+    "content": "Prometheus Scraper allows user to add custom labels in scraper configurations, like: . static_configs: - targets: ['app.mysite.com'] labels: application: 'Awesome App' . In ZoomPhant, you can still add your custom labels when creating the monitoring service. This is done by adding a custom param with name been prefixed with “custom.”, and the value of the param will then be taken as the label value: . custom.\\&lt;labelName\\&gt; . As an example, a custom label is defiend in below monitoring service： . If you have already created your monitoring service, you can edit your monitoring service to add / modify custom labels, but the changes will only be reflect in data collected after your change: . Custom Label Values . When creating custom labels, you can reference existing variables to define the label value as {{}}. ZoomPhant has following variable been pre-defined: . | _account: A unique identifier to represent current user account. | _accountName：Name of current user account. | _agent：A unique identifier of the collector running the data collecting tasks. | _agentName：Name of the collector | _product：A unique identifier of the monitoring plugin used to define the collecting task | _productName：Name of the monitoring plugin | _instance：A unique identifier representing current monitoring service | _instanceName：Name of current monitoring service | _resource：A unique idenitifier representing the object providing the data | _resourceName：Name of the object | . ",
+    "url": "/docs/manual/04_templates/prom/labels/#custom-labels",
+    
+    "relUrl": "/docs/manual/04_templates/prom/labels/#custom-labels"
+  },"64": {
+    "doc": "Customize Labels",
+    "title": "Customize Labels",
+    "content": "In a Proometheus Scraper, the data sometimes have some special and / or user defined labels. ZoomPhant may remove some of the labels and may allow you to define extra custom labels to manage and presenting your data. ",
+    "url": "/docs/manual/04_templates/prom/labels/",
+    
+    "relUrl": "/docs/manual/04_templates/prom/labels/"
+  },"65": {
+    "doc": "Prometheus Template Plugin",
+    "title": "Create Custom Prometheus Monitoring Plugin",
+    "content": "The Prometheus Template plugin will try to scrape an Prometheus exporter endpoint and collector all the data exposed. From this template, you can create your first custom Prometheus monitoring plugin easily. | First, navigate to “Settings | Custom Monitoring Plugins” as shown below: | . Here you can manage all your custom plugins created from one of the template plugins as well as create new ones. Click the “Add Custom Plugin” button on the top left corner, the Create Custom Plugin dialog will be brought up. Here you shall give your plugin a name and select the Template Type to Prometheus Exporter. Note: Since Kubernetes has special ways to manage an endpoint, you may choose Kubernetes Prometheus Exporter instead of Prometheus Exporter. For difference please refer to the following section. You can optionally upload a picture for identifying your custom plugin and then click OK to finish creation. Now, you’ve already your custom monitoring plugin. You can try to add a monitoring service using the custom plugin you just created. ",
+    "url": "/docs/manual/04_templates/prom/#create-custom-prometheus-monitoring-plugin",
+    
+    "relUrl": "/docs/manual/04_templates/prom/#create-custom-prometheus-monitoring-plugin"
+  },"66": {
+    "doc": "Prometheus Template Plugin",
+    "title": "Create Monitoring Services with Custom Prometheus Plugin",
+    "content": "Using custom prometheus plugin is very simple. When creating service , just select your custom prometheus plugin: . And in the paremeter setting step, you’ll need to provide the exporter’s endpoint: . Here you just need to provide the url to access the Prometheus exporter endpoint, but in case you are in Kubernetes environment (and thus you have chosen “Kubernetes Prometheus Exporter” when creating the custom plugin), you shall see a different set of parameters: . Here depends on how you expose your scraper, you shall provides . | Scrape URI: the endpoint URI (not full url with host and port) | Scrape Port: the port # | Using HTTPS: if you are using HTTPs or not | Namespace: the namespace your exporter is running | Resource Type: if you are exposing your exporter as a service, set to service, otherwise set to pod | Resource Name: name of the service or a RE2 regex to filter the exporter POD by name | . Once you have finished adding the service, your data will be coming soon. Viewing Data . By default, a custom plugin will have no dashboards be defined, you shall define the dashboards by your self or you can import a matching Grafana dashboard for a Prometheus custom plugin. Please refer to Import Grafana Dashboard for more details. ",
+    "url": "/docs/manual/04_templates/prom/#create-monitoring-services-with-custom-prometheus-plugin",
+    
+    "relUrl": "/docs/manual/04_templates/prom/#create-monitoring-services-with-custom-prometheus-plugin"
+  },"67": {
+    "doc": "Prometheus Template Plugin",
+    "title": "Prometheus Template Plugin",
+    "content": "Prometheus is by far the most widely used open-source monitoring tool. With its rich plugins, combined with Grafana and other tools, many users would try to build their monitoring solution based on Prometheus. But there are problems to use Promtheus since itself is not a complete monitoring solution, not to say the pains of building and maintaining many of the open source components. ZoomPhant provides Prometheus Template Plugins to help user to overcome those shortcomings: instead of maintaining separate Prometheus and Grafana instances, user simply create a custom monitoring plugin based on the template and import matching Grafana dashboards, and their monitoring works will work like a charm! And this means user can totally migrate their existing monitoring solution based on Prometheus and other open source components to ZoomPhant without any pain! . This document will guide users to use the rich Prometheus plugins and migrate their existing monitoring plugins to ZoomPhant in just two simple steps: . | Create custom monitoring plugin using Prometheus Template Plugin | Import matching Grafana dashboards | . ",
+    "url": "/docs/manual/04_templates/prom/",
+    
+    "relUrl": "/docs/manual/04_templates/prom/"
+  },"68": {
+    "doc": "SNMP Template Plugin",
+    "title": "Monitor SNMP devices using custom templates",
+    "content": "With zoomphant, you can monitor any snmp v1/v2c/v3 devices with customized snmp templates. ",
+    "url": "/docs/manual/04_templates/snmp/#monitor-snmp-devices-using-custom-templates",
+    
+    "relUrl": "/docs/manual/04_templates/snmp/#monitor-snmp-devices-using-custom-templates"
+  },"69": {
+    "doc": "SNMP Template Plugin",
+    "title": "Create Custom SNMP Monitoring Plugin",
+    "content": "The SNMP Template plugin will do snmpget/snmpwalk to an snmp agent to scrape data. From this template, you can create your first custom SNMP monitoring plugin easily. | First, navigate to “Settings | Custom Monitoring Plugins” as shown below: | . Here you can manage all your custom plugins created from one of the template plugins as well as create new ones. Click the “Add Custom Plugin” button on the top left corner, the Create Custom Plugin dialog will be brought up. Here you shall give your plugin a name and select the Template Type to SNMP. ",
+    "url": "/docs/manual/04_templates/snmp/#create-custom-snmp-monitoring-plugin",
+    
+    "relUrl": "/docs/manual/04_templates/snmp/#create-custom-snmp-monitoring-plugin"
+  },"70": {
+    "doc": "SNMP Template Plugin",
+    "title": "Configure data collections",
+    "content": "Step 1: Click the settings button for the snmp template, and now we need to configure the data collected. Step 2: click the add button, and input the related information: . | Configuration name: give a readable information . | Enable combine modes: when it’s enable, you can access a table in SNMP. See below example. | Parameter list: you can add the metrics to do snmp get directly. in above example, it added two metrics: . hrProcessorLoad - 1.3.6.1.2.1.25.3.3.1.2 (OID) memTotalReal - 1.3.6.1.2.1.25.2.3.1.5 (OID) . | . For different devices, it provides different OIDs. Please contact your device provider for more details. Combine Mode . This is used to do snmp walk of a table. eg you have some interfaces and want to get metrics for each interface: . For above configuration: . | table: a readable name. | tableOid: the oid which will be walked. for the walk result, it will generate a map. For above example, when we do the snmpwalk all the interfaces in a linux vm: The oid is: 1.3.6.1.2.1.2.2.1.1. [root ~]# snmpwalk -v 2c -c public 192.168.3.1 1.3.6.1.2.1.2.2.1.1 IF-MIB::ifIndex.1 = INTEGER: 1 IF-MIB::ifIndex.2 = INTEGER: 2 IF-MIB::ifIndex.3 = INTEGER: 3 IF-MIB::ifIndex.4 = INTEGER: 4 IF-MIB::ifIndex.5 = INTEGER: 5 IF-MIB::ifIndex.6 = INTEGER: 6 IF-MIB::ifIndex.7 = INTEGER: 7 IF-MIB::ifIndex.8 = INTEGER: 8 IF-MIB::ifIndex.9 = INTEGER: 9 IF-MIB::ifIndex.10 = INTEGER: 10 IF-MIB::ifIndex.11 = INTEGER: 11 IF-MIB::ifIndex.12 = INTEGER: 12 IF-MIB::ifIndex.13 = INTEGER: 13 IF-MIB::ifIndex.14 = INTEGER: 14 IF-MIB::ifIndex.131 = INTEGER: 131 IF-MIB::ifIndex.132 = INTEGER: 132 IF-MIB::ifIndex.133 = INTEGER: 133 IF-MIB::ifIndex.134 = INTEGER: 134 IF-MIB::ifIndex.135 = INTEGER: 135 . | Enable tableKeyAsIndex: if enable, we will use the key eg: ifIndex.6 as the key 6 to compose the oid to query the metrics. If disable, we will use the value INTEGER: 6 to query the metrics. Some oids may generate different key and values. eg: . [root ~]# snmpwalk -v 2c -c public 192.168.3.1 1.3.6.1.2.1.2.2.1.2 IF-MIB::ifDescr.1 = STRING: GigabitEthernet1/0/0 IF-MIB::ifDescr.2 = STRING: GigabitEthernet1/0/1 IF-MIB::ifDescr.3 = STRING: GigabitEthernet1/0/2 IF-MIB::ifDescr.4 = STRING: GigabitEthernet1/0/3 IF-MIB::ifDescr.5 = STRING: GigabitEthernet1/0/4 IF-MIB::ifDescr.6 = STRING: GigabitEthernet1/0/5 IF-MIB::ifDescr.7 = STRING: GigabitEthernet1/0/6 IF-MIB::ifDescr.8 = STRING: GigabitEthernet1/0/7 IF-MIB::ifDescr.9 = STRING: GigabitEthernet1/0/8 IF-MIB::ifDescr.10 = STRING: GigabitEthernet1/0/9 IF-MIB::ifDescr.11 = STRING: GigabitEthernet1/0/10 IF-MIB::ifDescr.12 = STRING: GigabitEthernet1/0/11 IF-MIB::ifDescr.13 = STRING: Cellular1/0/0 IF-MIB::ifDescr.14 = STRING: Cellular1/0/1 IF-MIB::ifDescr.131 = STRING: NULL0 IF-MIB::ifDescr.132 = STRING: InLoopBack0 IF-MIB::ifDescr.133 = STRING: Register-Tunnel0 IF-MIB::ifDescr.134 = STRING: SSLVPN-AC2 IF-MIB::ifDescr.135 = STRING: SSLVPN-AC1 . Here you can see, the key is still ifDescr.6 as the key 6 while the value is a STRING GigabitEthernet1/0/5. | Table tags list: you can use this to differ different table records. Here we use 1.3.6.1.2.1.2.2.1.2 to generate a tag ifDescr (the interface description). | Parameter list: here we will collect the ifInErrors(1.3.6.1.2.1.2.2.1.14) and ifOutErrors (1.3.6.1.2.1.2.2.1.20). | . ",
+    "url": "/docs/manual/04_templates/snmp/#configure-data-collections",
+    
+    "relUrl": "/docs/manual/04_templates/snmp/#configure-data-collections"
+  },"71": {
+    "doc": "SNMP Template Plugin",
+    "title": "Add snmp monitoring service",
+    "content": "Using custom snmp plugin is very simple. When creating service , just select your custom snmp plugin: . and please enter the correct credentials: . | For snmp v1/v2c, please set the community. For snmp v3, more credentials required. | . Now, you can add a dashboard to see metrics interested in. please refer to dashboards to create a dashboard. ",
+    "url": "/docs/manual/04_templates/snmp/#add-snmp-monitoring-service",
+    
+    "relUrl": "/docs/manual/04_templates/snmp/#add-snmp-monitoring-service"
+  },"72": {
+    "doc": "SNMP Template Plugin",
+    "title": "SNMP Template Plugin",
+    "content": " ",
+    "url": "/docs/manual/04_templates/snmp/",
+    
+    "relUrl": "/docs/manual/04_templates/snmp/"
+  },"73": {
+    "doc": "Template Plugins",
+    "title": "Template Plugins",
+    "content": "Some times users need to create custom monitoring plugins to meet their special business monitoring requirements. ZoomPhant allows advanced users to create custom plugins, but for most of the cases, users just need to create their custom monitoring plugins using one of the predefineed Template Plugins. A template plugin is a templated monitoring plugin that users can create powerful monitoring plugins quickly by simple steps like adding parameters, importing dashboards, etc. Currently ZoomPhant support following two types of template plugins . | Prometheus Template Plugins: collect data using one of the widely used prometheus exporters. | SNMP Template Plugins: collect data using SNMP v1, v2c &amp; v3 protocols | . Once you have created your custom monitoring plugin using one of the template plugins, you can create or import dashboards. ZoomPhant support import Grafana dashboards in a simple way, which makes your presenting data collected by your custom monitoring plugin very easy. For more information please refer to Importing Grafana Dashboards . ",
+    "url": "/docs/manual/04_templates/",
+    
+    "relUrl": "/docs/manual/04_templates/"
+  },"74": {
+    "doc": "Kubernetes Monitoring",
+    "title": "Kubernetes Monitoring",
+    "content": ". Kubernetes is widely used nowadays and there’s no good monitoring tool for Kuberenetes in the past, and now we have ZoomPhant! Just install a ZoomPhant Kubernetes collector and your Kubernetes cluster is under control. ",
+    "url": "/docs/manual/10_infrastructures/kubernetes/",
+    
+    "relUrl": "/docs/manual/10_infrastructures/kubernetes/"
+  },"75": {
+    "doc": "Kubernetes Monitoring",
+    "title": "Install Kubernetes Collector",
+    "content": "Follow the instructions in Install Collectors and choose Kubernetes as underlying infrastructure, you will be then creating a Kubernetes collector and corresponding monitoring service. Providing Kubernetes Cluster Information . When creating a Kubernetes collector, you need to provide some basic information of the cluster in step 2 of the wizard: . Here, you’ll need to provide the name of the cluster, which will aslo be used to identify the collector. Besides that you’ll need to provide the docker and log stuff, which if you shall always keep the default if you don’t know what your are doing. With above information provided, the final step will give instructions on how to install the Kubernetes collector. Installing Kubernetes Collector . Installing Kubernetes collector is simple, just copy one command and execute it, and you’ll get your Kubernetes collector running up. Here, Kubernetes collector will be installed as a daemon set, you shall run above command in one of the console with kubectl available. above command will try to download the YAML file and apply to your cluster. The YAML file will try to create a namespace called zoomphant-collector, where all the collector PODS will be created in. You can verify the installation by clicking the Verify button as shown above and after that you shall be able to view the data coming through your Kubernetes collector! . ",
+    "url": "/docs/manual/10_infrastructures/kubernetes/#install-kubernetes-collector",
+    
+    "relUrl": "/docs/manual/10_infrastructures/kubernetes/#install-kubernetes-collector"
+  },"76": {
+    "doc": "Kubernetes Monitoring",
+    "title": "Understanding Kubernetes Data",
+    "content": "Kubernetes is complicated so you shall not be surprised to see the data collected by a Kubernetes collector without adding additional monitoring services. If you go the corresponding service you shall see default dashboards like below . Here you can see . | Kubernetes tab, which contains important information of the whole cluster, like the overall status, resource usage and Cluster events, etc. | Node tab, which will give the list of nodes, from which you can see more detailed information of each node | Pod tab, which will give the list of pods, from which you can view more detailed information from PODs’ point of views | Service tab, which will give the list of services in the cluster and you can click for more detailed information for each service | Relation of Service: a diagram of all the services running in the cluster will be shown so you can have an overall understanding of what’s running in the cluster | . ",
+    "url": "/docs/manual/10_infrastructures/kubernetes/#understanding-kubernetes-data",
+    
+    "relUrl": "/docs/manual/10_infrastructures/kubernetes/#understanding-kubernetes-data"
+  },"77": {
+    "doc": "Kubernetes Monitoring",
+    "title": "Nodes, Pods and Services",
+    "content": "We providing navigatable list for nodes, pods and services in a Kubernetes cluster. By switching to corresponding tab, you can list the items and click them to get into a sub-level of dashboards for the chosing object: . Node List &amp; Per-node Dashboard . Switch to Node tab, you can find the node list in the node tab as a widget (you can drag and drop to move it to top or bottom of the dashboard): . Click one of the row, you will be bring to a dashboard for the node . Pod List and Per-Pod Dashboards . As nodes, you can navigate to Pod tab to see the list and you can filter pods by namespaces as shown below: . Click one of the POD you will be bring to the POD specific dashboard. Service List &amp; Per-Service Dashboard . Service is a very important concept in Kubernetes. Visiting the Service tab, you can find all the services in cluster and you can add extra monitoring service for the services. As shown above, you can list all the services in the cluster, and for each listed service, if you have not get it monitored, you’ll see the Add Service button at end of each service, by clicking with, you’ll be asked to select the matching plugin and get the service be monitored. If you have the service been monitored, the corresponding monitoring service will be listed under Service column, by clicking which you can quickly visiting the corresponding monitoring service and view the dashboards, for example, in our above diagram, we can click the “Kafka - service/prod/kafka” which is bound to serivce/prod/kafka (Kafka service in prod namespace) and we will be navigated to a page like follows: . ",
+    "url": "/docs/manual/10_infrastructures/kubernetes/#nodes-pods-and-services",
+    
+    "relUrl": "/docs/manual/10_infrastructures/kubernetes/#nodes-pods-and-services"
+  },"78": {
+    "doc": "Kubernetes Monitoring",
+    "title": "Relation of Service",
+    "content": "It is worth special notice of the service relationships, you can identify the data exchanging between services and / or namespaces and you can make your customized grouping / filtering here. Start exploring today! . ",
+    "url": "/docs/manual/10_infrastructures/kubernetes/#relation-of-service",
+    
+    "relUrl": "/docs/manual/10_infrastructures/kubernetes/#relation-of-service"
+  },"79": {
+    "doc": "Linux Monitoring",
+    "title": "Linux Monitoring",
+    "content": "Linux monitoring entails a suite of tools designed to monitor the health and performance of Linux servers. We offer two modes for monitoring Linux servers: . | Deep monitoring by installing collectors on Linux. | Monitoring Linux via SNMP. | . ",
+    "url": "/docs/manual/10_infrastructures/linux/",
+    
+    "relUrl": "/docs/manual/10_infrastructures/linux/"
+  },"80": {
+    "doc": "Linux Monitoring",
+    "title": "Deep Monitoring by Installing Collectors on Linux",
+    "content": "Navigate to the “Monitoring Services” section in the sidebar to access the Service page. Click the “add” button at the top-left corner. In the pop-up window, select “Single addition” under “Infrastructures”. Next, choose the “Linux” option. Begin by providing a name for the monitoring task. It’s essential to differentiate between monitoring tasks for ease of management, especially during alarm occurrences, which aids in quick identification. In-depth monitoring refers to comprehensive monitoring of Linux servers, encompassing CPU, processes, memory, disk, network, and even security logs. We offer monitoring data at a 1-minute granularity, which is highly recommended in cloud environments like AWS to optimize CloudWatch costs. Click “next” to proceed. Here, you’ll need to copy the script and execute it on the Linux server to be monitored. Please note that executing the script requires root privileges. Upon successful script execution, you’ll see the following prompt. If the collector fails to download, please verify the External Host configuration in accordance with the Quick Start guide to ensure the Collector Server is enabled. For script execution failures, kindly contact our support team. After successful collector installation, click the “validate” button. Successful validation indicates that the collector has been installed and successfully connected to the server. At this point, you can view the successfully added collector in the Service page. ",
+    "url": "/docs/manual/10_infrastructures/linux/#deep-monitoring-by-installing-collectors-on-linux",
+    
+    "relUrl": "/docs/manual/10_infrastructures/linux/#deep-monitoring-by-installing-collectors-on-linux"
+  },"81": {
+    "doc": "Windows Monitoring",
+    "title": "Windows Monitoring",
+    "content": ". Lots of enterprises are still heavily relying on Windows servers for their business, as an all-in-one monitoring solution, ZoomPhant would support Windows monitoring from the start! . The first step to do Windows monitoring is to setup one or more Windows data collecting agent. Those agent are can perform both general data collecting tasks as well as supporting many Windows specific collecting tasks using Windows specific mechanisms like WMI, PDH, etc. ",
+    "url": "/docs/manual/10_infrastructures/windows/",
+    
+    "relUrl": "/docs/manual/10_infrastructures/windows/"
+  },"82": {
+    "doc": "Windows Monitoring",
+    "title": "Install Windows Collector",
+    "content": "Follow the instructions in Install Collectors and choose Windows as underlying infrastructure, you’ll be able to install a Windows collector. In the second step, you need to give basic information of the the Windows system you will need to install the collector on: . And in step three, you’ll be required to open a Windows command window to execute the command that are shown: . If you are using powershell, you could modify the command accordingly before you execute the command . ",
+    "url": "/docs/manual/10_infrastructures/windows/#install-windows-collector",
+    
+    "relUrl": "/docs/manual/10_infrastructures/windows/#install-windows-collector"
+  },"83": {
+    "doc": "Windows Monitoring",
+    "title": "Understanding Windows Monitoring Data",
+    "content": "Go to the infrastructure monitoring service you just added, you shall be able to see dashboards like follows . Here you can have one place to see the overall status of the windows server, And if you want view the process status on your system, you can switch to the Process tab to view a list of running processes: . And also the network status of the system in Nework tab: . ",
+    "url": "/docs/manual/10_infrastructures/windows/#understanding-windows-monitoring-data",
+    
+    "relUrl": "/docs/manual/10_infrastructures/windows/#understanding-windows-monitoring-data"
+  },"84": {
+    "doc": "Infrastructure Monitoring",
+    "title": "Infrastructure Monitoring",
+    "content": ". ZoomPhant support data collecting on different platforms and ZoomPhant calls those platforms as infrastructures. An infrastructure provides resources for running ZoomPhant collector as well as other services of the customer. ",
+    "url": "/docs/manual/10_infrastructures/",
+    
+    "relUrl": "/docs/manual/10_infrastructures/"
+  },"85": {
+    "doc": "DNS Monitoring",
+    "title": "DNS Monitoring",
+    "content": ". DNS is one of the most underlying infrastructure of the Internet but which is usu. get neglected by people. ZoomPhant DNS montioring provides you a simple but very useful insights on how your DNS works. ",
+    "url": "/docs/manual/20_network/dns/",
+    
+    "relUrl": "/docs/manual/20_network/dns/"
+  },"86": {
+    "doc": "DNS Monitoring",
+    "title": "Create DNS Monitoring",
+    "content": "Suppose you want to monitor your domain like github.com, you simply choose the DNS Checker plugin from our plugin library to create a monitoring, you will be asked to provide following parameters . | server: the DNS server to use to do the check. You can usu. choose a known DNS server like 8.8.8.8 or 1.1.1.1 or simply leaving it empty, in which case the agent will choose the default system DNS server to service the request | port: the DNS server port to contact with. Just keep 53 which is the default DNS service port | host: this is required and should be the domain name you want to check. In this example, just fill in www.github.com which means we would try to check the DNS information for the github official site. | timeout: the default checking timeout in seconds. Usu. DNS resolvation would be finished very quick (in tens of milliseconds), so you can just leave it as 5 seconds which is the default. | . Once you have fill in correct params, you can do the testing to make sure everything works and then add the monitoring service. ",
+    "url": "/docs/manual/20_network/dns/#create-dns-monitoring",
+    
+    "relUrl": "/docs/manual/20_network/dns/#create-dns-monitoring"
+  },"87": {
+    "doc": "DNS Monitoring",
+    "title": "Understanding the DNS Checker Data",
+    "content": "Once you have add the DNS monitoring service, wait few seconds for data to come and you can then click the service on the left side service list to view the DNS status, you will see something like this . Here you will see three important informations . | The overall domain status. If everything works correctly you’ll see OK as shown in above diagram, otherwise you will see an short description of what kind of error happens (like domain not existing, etc.) | The response time or the DNS resolving time. How long it takes for the given server to respond the DNS queries. You’ll see the response times be shown in a line so you can see the jitters if any for the server to service queries for your domain. | The important events associated with your domain. Here it will show the resolved IP addresses for your domain. This will help you to check if your DNS configuration is correct or not or if your DNS name has been polluted or not. | . ",
+    "url": "/docs/manual/20_network/dns/#understanding-the-dns-checker-data",
+    
+    "relUrl": "/docs/manual/20_network/dns/#understanding-the-dns-checker-data"
+  },"88": {
+    "doc": "HTTP Monitoring",
+    "title": "HTTP Monitoring",
+    "content": ". HTTP is one of the most widely used protocol. By supporting HTTP monitoring, ZoomPhant enable you to monitor a web server in just few seconds. ",
+    "url": "/docs/manual/20_network/http/",
+    
+    "relUrl": "/docs/manual/20_network/http/"
+  },"89": {
+    "doc": "HTTP Monitoring",
+    "title": "Creating HTTP Monitoring",
+    "content": "To create a HTTP monitoring, you just follow the instruction in Add Monitor Service to select the HTTP Checker plugin and provides following parameters . Here： . | url: the only required parameter required for HTTP Checker to work. It will try to perform a HTTP GET check against this given URL | code: the expected HTTP response code, default to 200 (OK) | timeout: the expire time in seconds, default to 15 seconds | bodycheck: for advanced user only. A JSON object describe how to check the HTTP responses, it allows you to match the returned HTTP response using different syntax like check against JSON path or XML path, etc. The JSON object shall contains following field . | format: how to interpret the JSON object, the value could be “json” or “xml” | path: depends on format, it could be a JSON path or XML path | value: the value to check against. We will take the value as string | op: what kind of check you want to check, like “equal”, “notEqual”, “contain”, “notContain”, “exist”, “notExist”, “match”, “notMatch”. an example: (which will check the json value $.result.data will equal to test) { \"format\": \"json\", \"path\": \"$.result.data\", \"value\": \"test\", \"op\": \"equal\" } . | . | proxy.host / proxy.port: the proxy server to use if you need to access the url after a proxy | proxy.user / proxy.pass: the proxy user name and password if required | proxy.type: type of proxy to use, by default it’s a HTTP proxy. | method: optional. set the http method. GET or POST. default is GET. | body: optional. set the http post body. default is empty if method is POST. | headers: optional. set the http request headers. It’s a json array. an example: [ {\"name\": \"Authorization\", \"value\": \"Bear XXXX\"} ] . | metrics: for advanced user only. A JSON array which can be used to extract metrics from the http body or http header. each object has below format: . | name : the name of the metric. The final metric name will be added a prefix: “metric.” | extractorSource : which part will be used to extract metric. values: header/responsebody. | extractorMethod : how to extract the metric. values: values: xml/json/regex. | extractorParams : the params. for xml, it’s xml path. for json, it’s json path. for regex, it’s the regex expression. an example: (this will report a metric metric.productNumber with the value of $.data.productNum) [ { \"name\": \"productNumber\", \"extractorSource\" : \"responsebody\", \"extractorMethod\": \"json\", \"extractorParams\": [\"$.data.productNum\"] } ] . | . | . ",
+    "url": "/docs/manual/20_network/http/#creating-http-monitoring",
+    
+    "relUrl": "/docs/manual/20_network/http/#creating-http-monitoring"
+  },"90": {
+    "doc": "HTTP Monitoring",
+    "title": "Understanding the HTTP Checker Data",
+    "content": "Once you have added the monitoring service, you can navigate to it and see the collected data as follows . First you can see the overall status in Status widget for the monitored URL. If everything is OK, you can see the green OK, otherwise, depending on the severity of the problem, you would see an orange or red error messages. If the URL monitored is a HTTPS link, you’ll also see the certificate status in Security Certificate widget. Like the overall status, if everything is OK a green OK is displayed, otherwise an error message is displayed in orange or red color. For HTTPS link, besides the certificate status, the certificate expiration is also shown up in the SSL Expired widget, you can set alerts to remind you before your certificate expires. You will aslo be able to see the url link access performance in Performance and Response Size widgets. It is worth noticing that the accessing performance is fine-measured and can be decoupled to several sub-metrics: . | Connect: this is the time taken to connect to the host servicing the url | Handshake: if this is a HTTPS url, the time taken for establishing SSL connections | Request: the time taken to send the request to server | Process: the time taken for the server to send back first byte of data after fully receiving the request | Response: the time taken for the server to send back all the data | . ",
+    "url": "/docs/manual/20_network/http/#understanding-the-http-checker-data",
+    
+    "relUrl": "/docs/manual/20_network/http/#understanding-the-http-checker-data"
+  },"91": {
+    "doc": "Ping Monitoring",
+    "title": "Ping Monitoring",
+    "content": ". Ping is another widely used protocol for operators to check if a remote device is active and roughly how the access performance that remote device is. ZoomPhant provides and easy way for you to monitor a remote device using Ping Checker plugin. ",
+    "url": "/docs/manual/20_network/ping/",
+    
+    "relUrl": "/docs/manual/20_network/ping/"
+  },"92": {
+    "doc": "Ping Monitoring",
+    "title": "Creating Ping Monitoring",
+    "content": "To start monitor a remote device for aliveness and access performance, you can choose the Ping Checker plugin as shown in Add Monitor Service and provide following necessary parameters to create a monitoring service: . | host: the IP or DNS of the device you want to monitor, this is mandatory | timeout: the timeout in seconds to perform ping monitoring | . With the parameters provided and the monitoring service been created, you can wait few seconds and see the diagrams for the monitored device. ",
+    "url": "/docs/manual/20_network/ping/#creating-ping-monitoring",
+    
+    "relUrl": "/docs/manual/20_network/ping/#creating-ping-monitoring"
+  },"93": {
+    "doc": "Ping Monitoring",
+    "title": "Understanding Ping Data",
+    "content": "Ping monitoring data are presented in straigtforward ways as shown below: . | The Status widget will show the overall status of the ping monitoring service | The RTT is the average Route-Trip-Time for ping packets sent during one check, the lower the better and usu. for health devices in an intranet, this shall just few milliseconds. | The minRTT and maxRTT are the minimum and maximum RTTs of the packets sent in one check. | . ",
+    "url": "/docs/manual/20_network/ping/#understanding-ping-data",
+    
+    "relUrl": "/docs/manual/20_network/ping/#understanding-ping-data"
+  },"94": {
+    "doc": "Ping Monitoring",
+    "title": "Monitoring Mulitple Devices",
+    "content": "We recommend to create one ping monitoring service for each service (although we support to check multiple devices in one monitoring service) and we can then view the overall status of all monitored devices at the group level by click the Ping Checker tab as follows: . As shown in above diagram, we can easily identify the devices in problems as well as viewing the overall RTT trends for all active devices. ",
+    "url": "/docs/manual/20_network/ping/#monitoring-mulitple-devices",
+    
+    "relUrl": "/docs/manual/20_network/ping/#monitoring-mulitple-devices"
+  },"95": {
+    "doc": "Port Monitoring",
+    "title": "Port Monitoring",
+    "content": ". One common problem for monitoring a device is to find out the activeness of the services running on that device (e.g. the FTP service, the SMTP service, etc.), one effective way is to monitor if the ports providing those services are opened and could be connected to. For this purpose, ZoomPhant provides the Port Checker plugin. ",
+    "url": "/docs/manual/20_network/port/",
+    
+    "relUrl": "/docs/manual/20_network/port/"
+  },"96": {
+    "doc": "Port Monitoring",
+    "title": "Creating Port Monitoring Service",
+    "content": "Follow theAdd Monitor Service and select the Port Checker plugin, you can quickly create monitoring tasks for ports opened on a device by providing necessary parameters. Here, you need to provide following parameters . | host: the IP or DNS of the device to check against | port: the port numbers you want to monitor, separated by comma if you have multiple ports to monitor | timeout: the time in seconds to timeout a connect check | . Once you have finished creating the monitor service, you’ll be able to see the port status in just few seconds. ",
+    "url": "/docs/manual/20_network/port/#creating-port-monitoring-service",
+    
+    "relUrl": "/docs/manual/20_network/port/#creating-port-monitoring-service"
+  },"97": {
+    "doc": "Port Monitoring",
+    "title": "Understanding Port Checking Data",
+    "content": "Navigating to the Port monitoring service, you’ll see data presented in widgets as follows: . The Status widget gives you a quick view of current active ports and inactive ports, if you move mouse pointer one of the items, you can see more detailed information like “: \" on it, where green items has status 0 and red items has status 1. The Connect widget shows you the times taken to connect to each of the active port allong the time, from which you may be able to find intresting patterns like during the heavy load hours the time may increase sharply and then gradually drops back to much lower values, etc. ",
+    "url": "/docs/manual/20_network/port/#understanding-port-checking-data",
+    
+    "relUrl": "/docs/manual/20_network/port/#understanding-port-checking-data"
+  },"98": {
+    "doc": "Route Monitoring",
+    "title": "Route Monitoring",
+    "content": ". For many network operators, tracers might be one of their most favorite tools. ZoomPhant provide Route Checker for easier monitoring the routes in the internet and make such professional function straightforward to ordinary people. ",
+    "url": "/docs/manual/20_network/route/",
+    
+    "relUrl": "/docs/manual/20_network/route/"
+  },"99": {
+    "doc": "Route Monitoring",
+    "title": "Creating Route Monitoring",
+    "content": "To monitor routes to a domain, it is straigtht forward to follow the steps in Add Monitor Service by choosing Route Checker plugin and fill in following parameters . | host: the IP or DNS of the device you want to monitor routes to | hops: the maximum hops to check. If more hops required to reach that host, the task fails. | . Once created, wait few seconds and you can check the routes information shown as follows. ",
+    "url": "/docs/manual/20_network/route/#creating-route-monitoring",
+    
+    "relUrl": "/docs/manual/20_network/route/#creating-route-monitoring"
+  },"100": {
+    "doc": "Route Monitoring",
+    "title": "Understanding Route Data",
+    "content": "After data coming, when you navigate to the monitoring service you have created, you can see data as follows . | Status: this is the overall status. If the target IP or DNS could be reached, you’ll see the green OK, otherwise, it will try to show messages like . | Intranet: we have been able to receive responses from several hops, but all the hops are having an intranet IP (i.e. not public IP) | Internet: we have been able to receive responses from several hops and at least one hop has a public Internet IP | Invalid Domain: the domain could not be resolved | . | Hop: Number of hops taken to reach the target. If the target could not be reached, this would be zero. | RTT: Time taken to reach the target, in milliseconds | Events: Some important informations about the target, usu. it will show you the IP resolved for last check | . ",
+    "url": "/docs/manual/20_network/route/#understanding-route-data",
+    
+    "relUrl": "/docs/manual/20_network/route/#understanding-route-data"
+  },"101": {
+    "doc": "Network Monitoring",
+    "title": "Network Monitoring",
+    "content": ". Networking is complicated, considering the various parts playing different roles in the networking infrastruture, you may experience lots of different problems . | Is DNS working? | Is your IP working? | Is your routing working? | Is your remote service working? | How do above perform? | … | . ZoomPhant provides a full set of embeded network monitoring plugins (which is included in the All-in-One package) that could help you address such kind of problems. ",
+    "url": "/docs/manual/20_network/",
+    
+    "relUrl": "/docs/manual/20_network/"
+  },"102": {
+    "doc": "Docker Container Monitoring",
+    "title": "Docker Container Monitoring",
+    "content": "Docker Container Monitoring utilizes the Docker API to monitor the status of Docker containers. You can not only use it to monitor the running status of local Docker containers, but also to monitor containers on each node of Kubernetes, as well as containers on EC2 instances of AWS ECS, to obtain more comprehensive data. It provides insights into CPU usage, memory usage, IO usage, and network traffic for each container. ",
+    "url": "/docs/manual/99_plugins/docker/",
+    
+    "relUrl": "/docs/manual/99_plugins/docker/"
+  },"103": {
+    "doc": "Docker Container Monitoring",
+    "title": "Adding Docker Container to Monitoring Services",
+    "content": ". | Navigate to the Monitoring Services section by clicking on the left sidebar. | Click the “Add” button in the top left corner of the page. | Select “Single addition” under “Applications”. | Locate “Docker Container” and click “Add”. | . | Choose a collector that can access the Docker service you want to monitor, and proceed to fill in the required details. | Once filled, click “Next”. | . | If the Zoomphant Collector is installed on the Docker host you want to monitor, no additional configuration is needed. Otherwise, specify the Docker host as tcp://&lt;IP or Hostname&gt;:2376. | . | Click the “Test” button to ensure successful connection, then proceed to click “Next”. | . ",
+    "url": "/docs/manual/99_plugins/docker/#adding-docker-container-to-monitoring-services",
+    
+    "relUrl": "/docs/manual/99_plugins/docker/#adding-docker-container-to-monitoring-services"
+  },"104": {
+    "doc": "Docker Container Monitoring",
+    "title": "Viewing Monitoring Results",
+    "content": "You can now view the added service on the monitoring services page. ",
+    "url": "/docs/manual/99_plugins/docker/#viewing-monitoring-results",
+    
+    "relUrl": "/docs/manual/99_plugins/docker/#viewing-monitoring-results"
+  },"105": {
+    "doc": "Ethereum Blockchain Monitoring",
+    "title": "Ethereum Blockchain Monitoring",
+    "content": "Ethereum Blockchain Monitoring can monitor the Ethereum Blockchain, including Geth, Polygon, Parity Ethereum / OpenEthereum, Besu, Nethermind, Trinity, and so on. ",
+    "url": "/docs/manual/99_plugins/ethereum/",
+    
+    "relUrl": "/docs/manual/99_plugins/ethereum/"
+  },"106": {
+    "doc": "Ethereum Blockchain Monitoring",
+    "title": "Adding Ethereum Blockchain to Monitoring Services",
+    "content": ". | Navigate to the Monitoring Services section by clicking on the left sidebar. | Click the “Add” button in the top left corner of the page. | Select “Single addition” under “Applications”. | Locate “Ethereum Blockchain” and click “Add”. | . | Choose a collector that can access the Ethereum Blockchain you want to monitor, and proceed to fill in the required details. | Once filled, click “Next”. | . | There are two params in this step. | rpcUrl: The RPC URL specifies the blockchain address you want to monitor. For example, if you want to monitor the Polygon network, you should fill in the RPC URL as follows: https://polygon-rpc.com. | sample: The sample parameter specifies how many transaction data points you want to collect for calculating gas prices and other metrics. Due to limitations imposed by public blockchain networks, you cannot set this value too high. However, if you are monitoring your local private chain, you can set a larger value to ensure accurate data retrieval. | . | . | Click the “Test” button to ensure successful connection, then proceed to click “Next”. | . ",
+    "url": "/docs/manual/99_plugins/ethereum/#adding-ethereum-blockchain-to-monitoring-services",
+    
+    "relUrl": "/docs/manual/99_plugins/ethereum/#adding-ethereum-blockchain-to-monitoring-services"
+  },"107": {
+    "doc": "Ethereum Blockchain Monitoring",
+    "title": "Viewing Monitoring Results",
+    "content": "You can now view the added service on the monitoring services page. ",
+    "url": "/docs/manual/99_plugins/ethereum/#viewing-monitoring-results",
+    
+    "relUrl": "/docs/manual/99_plugins/ethereum/#viewing-monitoring-results"
+  },"108": {
+    "doc": "GlusterFS",
+    "title": "GlusterFS monitoring",
+    "content": ". Gluster is a free and open source software scalable network filesystem. ZoomPhant provides an openbox monitoring for glusterfs system. ",
+    "url": "/docs/manual/99_plugins/glusterfs/#glusterfs-monitoring",
+    
+    "relUrl": "/docs/manual/99_plugins/glusterfs/#glusterfs-monitoring"
+  },"109": {
+    "doc": "GlusterFS",
+    "title": "Creating GlusterFS Monitoring",
+    "content": "In order to use this plugin, please make sure all nodes in gluster are installed a Linux Data Collector. To start monitor a glusterfs system, you can choose the GlusterFS plugin as shown in Add Monitor Service and provide following necessary parameters to create a monitoring service: . | gluster.cmd.path: optional. this can be used to set the linux command gluster file path. | . With the parameters provided and the monitoring service been created, you can wait few seconds and see the diagrams for the monitored device. ",
+    "url": "/docs/manual/99_plugins/glusterfs/#creating-glusterfs-monitoring",
+    
+    "relUrl": "/docs/manual/99_plugins/glusterfs/#creating-glusterfs-monitoring"
+  },"110": {
+    "doc": "GlusterFS",
+    "title": "Understanding GlusterFS Data",
+    "content": "GlusterFS monitoring data are presented in straigtforward ways as shown below: . It provides below metrics: . | Volumes node count: shows the node count for each volume. | Volume node error count: show the error nodes count for each volume. This should be zero for a normal gluster cluster. | Peer count: show the peer count for current node. | Peer connected: show whether the peer is conncted or not. (1 - conncted). | Peer state: show the peer state for current node. The state value mapping: . | Value | Descrption | . | 1 | Connected | . | 2 | Disconnected | . | 3 | Peer in cluster | . | 4 | Peer rejected | . | 5 | Accepted Peer | . | 6 | Self-Connected | . | . ",
+    "url": "/docs/manual/99_plugins/glusterfs/#understanding-glusterfs-data",
+    
+    "relUrl": "/docs/manual/99_plugins/glusterfs/#understanding-glusterfs-data"
+  },"111": {
+    "doc": "GlusterFS",
+    "title": "GlusterFS",
+    "content": " ",
+    "url": "/docs/manual/99_plugins/glusterfs/",
+    
+    "relUrl": "/docs/manual/99_plugins/glusterfs/"
+  },"112": {
+    "doc": "Kafka Monitoring",
+    "title": "Kafka Monitoring",
+    "content": ". ZoomPhant provides an easy way for you to monitor one or more kafka cluster using Kafka plugin. ",
+    "url": "/docs/manual/99_plugins/kafka/",
+    
+    "relUrl": "/docs/manual/99_plugins/kafka/"
+  },"113": {
+    "doc": "Kafka Monitoring",
+    "title": "Creating Kafka Monitoring",
+    "content": "To start monitor a kafka cluster, you can choose the Kafka plugin as shown in Add Monitor Service and provide following necessary parameters to create a monitoring service: . | bootstrap: the bootstrap urls for a kafka cluster. | . With the parameters provided and the monitoring service been created, you can wait few seconds and see the diagrams for the monitored device. ",
+    "url": "/docs/manual/99_plugins/kafka/#creating-kafka-monitoring",
+    
+    "relUrl": "/docs/manual/99_plugins/kafka/#creating-kafka-monitoring"
+  },"114": {
+    "doc": "Kafka Monitoring",
+    "title": "Understanding Kafka Data",
+    "content": "Kafka monitoring data are presented in straigtforward ways as shown below: . Cluster dashboard . It contains below metrics: . | Messages in per cluster level | Log directory size per broker | Broker status &amp; broker count | Offsets committed rate top 10 | Messages in by topic top 10 | Broker partitions count | Broker partition skew rate. The partitions per broker divides the avg partitions count | Broker leader partition skew rate | . Consumer group dashboard . It contains below metrics: . | consumer group level topic lag | offset commit rate per consumer group | . Topic dashboard . It contains below metrics: . | messages count for a topic | partition count for a topic | replication factor for a topic | messages in per topic | In sync replicas (ISR) and Under replica partitions (URP, which partition doesn’t have enough replica) | Subscribed consumer groups count | Log directory size for this topic in brokers | Partitions messages offset for topic | . ",
+    "url": "/docs/manual/99_plugins/kafka/#understanding-kafka-data",
+    
+    "relUrl": "/docs/manual/99_plugins/kafka/#understanding-kafka-data"
+  },"115": {
+    "doc": "Kafka Monitoring",
+    "title": "Monitoring Multiple Kafka Clusters",
+    "content": "You can monitor multiple kafka clusters by adding more services. ",
+    "url": "/docs/manual/99_plugins/kafka/#monitoring-multiple-kafka-clusters",
+    
+    "relUrl": "/docs/manual/99_plugins/kafka/#monitoring-multiple-kafka-clusters"
+  },"116": {
+    "doc": "Linux SNMP Monitoring",
+    "title": "Linux Monitoring",
+    "content": "Linux monitoring entails a suite of tools designed to monitor the health and performance of Linux servers. We offer two modes for monitoring Linux servers: . | Deep monitoring by installing collectors on Linux. | Monitoring Linux via SNMP. | . ",
+    "url": "/docs/manual/99_plugins/linux/#linux-monitoring",
+    
+    "relUrl": "/docs/manual/99_plugins/linux/#linux-monitoring"
+  },"117": {
+    "doc": "Linux SNMP Monitoring",
+    "title": "Monitoring Linux via SNMP",
+    "content": "First, ensure that the SNMP service is enabled. Below is an example for enabling SNMP service on CentOS: . # Install SNMP service yum install -y net-snmp net-snmp-utils # Configure SNMP service vi /etc/snmp/snmpd.conf # Modify the following configuration to .1.3.6.1 to obtain more system information view systemview included .1.3.6.1 # Restart SNMP service systemctl restart snmpd.service # Add SNMP service to startup systemctl enable snmpd.service . Adding SNMP Monitoring in the Monitoring Services . Navigate to the “Monitoring Services” section in the sidebar to access the Service page. Click the “add” button at the top-left corner. In the pop-up window, select “Single addition” under “Applications Or Services”. Next, choose the “Linux(SNMP)” option. You can also search for “linux” in the search bar. Begin by providing a name for the monitoring task. It’s essential to differentiate between monitoring tasks for ease of management, especially during alarm occurrences, which aids in quick identification. You need to select a collector that can access the server being monitored, as SNMP uses the UDP protocol, so it’s preferable for the collector and the monitored server to be in the same LAN. Fill in the IP address of the server being monitored and SNMP protocol version, authentication information, etc. If you’re concerned about whether the parameters are filled in correctly, you can click the “Test” button to perform a test. Once confirmed, click “Next” to successfully add the service monitoring. Now, you can view the added service on the service page. ",
+    "url": "/docs/manual/99_plugins/linux/#monitoring-linux-via-snmp",
+    
+    "relUrl": "/docs/manual/99_plugins/linux/#monitoring-linux-via-snmp"
+  },"118": {
+    "doc": "Linux SNMP Monitoring",
+    "title": "Linux SNMP Monitoring",
+    "content": " ",
+    "url": "/docs/manual/99_plugins/linux/",
+    
+    "relUrl": "/docs/manual/99_plugins/linux/"
+  },"119": {
+    "doc": "Nginx Monitoring",
+    "title": "Nginx Monitoring",
+    "content": ". ZoomPhant can monitor and extract a lot of useful metrics from the nginx access log. ",
+    "url": "/docs/manual/99_plugins/nginx/",
+    
+    "relUrl": "/docs/manual/99_plugins/nginx/"
+  },"120": {
+    "doc": "Nginx Monitoring",
+    "title": "Creating Nginx Monitoring",
+    "content": "To start monitor a nginx access log, you can choose the Nginx Access Logs plugin as shown in Add Monitor Service and provide following necessary parameters to create a monitoring service: . | path: the nginx log file path . (This requires the choosen collector can access the nginx log by the path provided.) | grok: the grok pattern for the log file content. The cloud version Zoomphant provides AI ability to extract the pattern. | . With the parameters provided and the monitoring service been created, you can wait few seconds and see the diagrams for the monitored nginx service. ",
+    "url": "/docs/manual/99_plugins/nginx/#creating-nginx-monitoring",
+    
+    "relUrl": "/docs/manual/99_plugins/nginx/#creating-nginx-monitoring"
+  },"121": {
+    "doc": "Nginx Monitoring",
+    "title": "Understanding Nginx Data",
+    "content": "Nginx monitoring data are presented in straigtforward ways as shown below: . It contains below metrics for a nginx server: . | Requests rate | Last 24 hours request count | Last 24 hours failure request count | The requests count and the http status code stats | The request url distribution in last 24 hours | The os distribution | The remote address distribution | The request method distribution | The user agent distribution | . and the raw logs tab: . ",
+    "url": "/docs/manual/99_plugins/nginx/#understanding-nginx-data",
+    
+    "relUrl": "/docs/manual/99_plugins/nginx/#understanding-nginx-data"
+  },"122": {
+    "doc": "Nvidia GPU Monitoring",
+    "title": "Nvidia GPU Monitoring",
+    "content": "Nvidia GPU Monitoring utilizes the nvidia-smi command installed on the local machine to monitor various parameters of the graphics card, such as power consumption, temperature, fan speed, and more. As AI continues to advance, particularly with the increasing prevalence of localized language models like LLMs, the demand for GPU monitoring is on the rise. Monitoring GPU usage goes beyond simply tracking utilization; it involves keeping tabs on fan speeds, temperatures, and other factors to prevent GPU wear and tear. In addition to usage metrics, we’ve observed instances of GPUs inexplicably going offline during heavy usage. Despite programs running smoothly, sudden drops in GPU utilization raise concerns. This underscores the importance of continuous monitoring to identify and address such issues promptly. Effective GPU utilization relies on understanding usage patterns through long-term monitoring. Only by analyzing our usage habits over time can we ensure efficient and reliable GPU performance. ",
+    "url": "/docs/manual/99_plugins/nvidiagpu/",
+    
+    "relUrl": "/docs/manual/99_plugins/nvidiagpu/"
+  },"123": {
+    "doc": "Nvidia GPU Monitoring",
+    "title": "Adding Nvidia GPU Monitoring to Monitoring Services",
+    "content": ". | Navigate to the Monitoring Services section by clicking on the left sidebar. | Click the “Add” button in the top left corner of the page. | Select “Single addition” under “Applications”. | Locate “Nvidia GPU” and click “Add”. | . | Choose the collector that installed on the GPU host. | Once filled, click “Next”. | . | There no param needed in this step for the collector must be on the GPU host. | . | Click the “Test” button to ensure successful connection, then proceed to click “Next”. | . ",
+    "url": "/docs/manual/99_plugins/nvidiagpu/#adding-nvidia-gpu-monitoring-to-monitoring-services",
+    
+    "relUrl": "/docs/manual/99_plugins/nvidiagpu/#adding-nvidia-gpu-monitoring-to-monitoring-services"
+  },"124": {
+    "doc": "Nvidia GPU Monitoring",
+    "title": "Viewing Monitoring Results",
+    "content": "You can now view the added service on the monitoring services page. ",
+    "url": "/docs/manual/99_plugins/nvidiagpu/#viewing-monitoring-results",
+    
+    "relUrl": "/docs/manual/99_plugins/nvidiagpu/#viewing-monitoring-results"
+  },"125": {
+    "doc": "ProxmoxVE Monitoring",
+    "title": "Cluster Dashboard",
+    "content": "The default dashboard would be the cluster status dashboard: . Here you will be able to see . | The cluster statistics like the node number, VM number etc. | The resource usage status of the cluster, like CPU usage, memory usage and storage usage. | List of nodes and a simple overall status of each node | List of VM and a simple overall status of each VM | . The node list and VM list are clickable, if you click a row you’ll be navigate to a sub-dashboard of corresponding node or VM. ",
+    "url": "/docs/manual/99_plugins/proxmox/#cluster-dashboard",
+    
+    "relUrl": "/docs/manual/99_plugins/proxmox/#cluster-dashboard"
+  },"126": {
+    "doc": "ProxmoxVE Monitoring",
+    "title": "Node Dashboard",
+    "content": "if you click a node in above node list, you’ll be navigate to node dashboard of that node, as shown below: . On this dashboard, you’ll be able to view information like: . | Node running time | Node resource status | VMs running on the node and their simple overall status | Node disk and other information | . Like in the cluster status, the VM List is clickable, by clicking one VM you’ll be navigate to the VM sub-dashboard. ",
+    "url": "/docs/manual/99_plugins/proxmox/#node-dashboard",
+    
+    "relUrl": "/docs/manual/99_plugins/proxmox/#node-dashboard"
+  },"127": {
+    "doc": "ProxmoxVE Monitoring",
+    "title": "VM Dashboard",
+    "content": "Once you click a VM in Cluster Dashboard or a Node Dashboard, you will be presented the VM Dashboard: . In VM dashboard, you’ll see information about the VM like . | VM status and running time | VM resource usage | VM Disk I/O and Netowrk I/O Status | Other informations | . ",
+    "url": "/docs/manual/99_plugins/proxmox/#vm-dashboard",
+    
+    "relUrl": "/docs/manual/99_plugins/proxmox/#vm-dashboard"
+  },"128": {
+    "doc": "ProxmoxVE Monitoring",
+    "title": "ProxmoxVE Monitoring",
+    "content": "Proxmox VE (PVE) is the most commonly used opensource virtulization platform, like monitoring ESX, ZoomPhant can also monitor Proxmox VE. For more information about PVE, please visit its offical website at: . https://www.proxmox.com/en/proxmox-ve) . Creating PVE Monitoring Service . Before creating a monitoring service for your PVE, please collect following information to ensure you can access your PVE cluster: . | Cluster access endpoint. It should be the URL you use to access your PVE cluster in browser, like: https://192.168.1.1:8006. | Cluster access username. You should create a username for monitoring purpose, like monitor or zervice. Please also collect the domain of the user (by default it should be pam) | The access password or token for the monitoring user. If you decide to use token, please be aware that in ZoomPhant we would request you to prepend with your tokenId in format of tokenId**=**token. For example, you could have created a token with token ID monitoring, the corresponding token value is “a267354d-bc9f-426a-828c-5174382b3e00”, then the token you provided to ZoomPhant should be “monitoring=a267354d-bc9f-426a-828c-5174382b3e00” | . With above information ready, you can know start adding your PVE monitoring service. Please follow the steps in Add Monitor Service and choose Proxmox monitoring plugin : . In the parameter step, you shall provide following parameters using above information: . Here: . | url: you can just input host port like 192.168.1.1:8006 or you can just paste the url in like https://192.168.1.1:8006/ | username: The account name like monitor or zervice | password: If you use passwords, input the password here, or you can keep it blank and fill in token field | token: If you use token, fill in token (in format of tokenId=token), otherwise you shall have password set and keep this blank | . Now finish adding your monitoring service and wait few seconds, you’ll soon be able to see the data coming. Understanding Proxmox Data . Once you have added the PVE monitoring service, you shall be able see the dashboards for your added monitoring service. You will be able to see . | The status of the cluster | The status of a node in the cluster | The status of a VM in the cluster | Other information | . ",
+    "url": "/docs/manual/99_plugins/proxmox/",
+    
+    "relUrl": "/docs/manual/99_plugins/proxmox/"
+  },"129": {
+    "doc": "Redis Monitoring",
+    "title": "Redis Monitoring",
+    "content": ". ZoomPhant provides an easy way for you to monitor redis servers or clusters using Redis plugin. ",
+    "url": "/docs/manual/99_plugins/redis/",
+    
+    "relUrl": "/docs/manual/99_plugins/redis/"
+  },"130": {
+    "doc": "Redis Monitoring",
+    "title": "Creating Redis Monitoring",
+    "content": "To start monitor a redis server, you can choose the Redis plugin as shown in Add Monitor Service and provide following necessary parameters to create a monitoring service: . | host: the host for a redis server. | port: the port for a redis server. eg: 6379 | password: optional, the password for a redis server. | userName: optional, the userName for a redis server. | . With the parameters provided and the monitoring service been created, you can wait few seconds and see the diagrams for the monitored redis service. ",
+    "url": "/docs/manual/99_plugins/redis/#creating-redis-monitoring",
+    
+    "relUrl": "/docs/manual/99_plugins/redis/#creating-redis-monitoring"
+  },"131": {
+    "doc": "Redis Monitoring",
+    "title": "Understanding Redis Data",
+    "content": "Redis monitoring data are presented in straigtforward ways as shown below: . It contains below metrics for a redis server: . | Uptime in hours | Max clients | AOF (Append only file) feature status (0 is disabled) | Connected and blocked clients | Memory used | Expired keys count | Input and output network bytes in seconds | Pub and subscribed channels | User and sys cpu usage | Memory replication backlog | Commands processed | Connected slaves | . ",
+    "url": "/docs/manual/99_plugins/redis/#understanding-redis-data",
+    
+    "relUrl": "/docs/manual/99_plugins/redis/#understanding-redis-data"
+  },"132": {
+    "doc": "Sql query exporter",
+    "title": "Sql query exporter",
+    "content": ". ZoomPhant provides an easy way for you to do a sql query to export metrics. For now, we support below databases to generate metrics: . | Microsoft SQL Server | Oracle | MySQL | PostgreSQL | ClickHouse | . ",
+    "url": "/docs/manual/99_plugins/sqlqueryexporter/",
+    
+    "relUrl": "/docs/manual/99_plugins/sqlqueryexporter/"
+  },"133": {
+    "doc": "Sql query exporter",
+    "title": "Creating SQL query exporter monitoring",
+    "content": "To do a sql query to extract metrics, you can choose the Sql query exporter plugin as shown in Add Monitor Service and provide following necessary parameters to create a monitoring service: . | jdbc.url: required. the jdbc url. below are some examples: . | Database type | jdbc.url example | . | SQL Server | jdbc:sqlserver://localhost:1433;databaseName=mydatabase;user=myuser;password=mypassword | . | MySQL | jdbc:mysql://localhost:3306/mydatabase | . | Postgres SQL | jdbc:postgresql://localhost:5432/mydatabase | . | Oracle | jdbc:oracle:thin:@//localhost:1521/XE | . | Clickhouse | jdbc:clickhouse://localhost:8123/default | . | sqls: required. a json array to describe the metrics definition. we support a list of sqls to generate multiple metrics to improve performance. Here are the example: . [{ \"sql\": \"the sql to query\", \"labels\": [\"label1\", \"label2\"], \"metrics\": [{ \"name\": \"metric1\" }, { \"name\": \"metric2\" }] }] . The sql describe the sql to generate metric. you can define multiple query to get different metrics. the labels indicates the column names in sql which will be treat as labels. An example : . [{ \"sql\": \"SELECT category, count() as count FROM apilog_table WHERE timestamp &gt; toDateTime('2023-12-31 23:59:59') group by category\", \"labels\": [\"category\"], \"metrics\": [{ \"name\": \"count\" }] }] . | jdbc.user: optional. the jdbc user. | jdbc.password: optional. the jdbc password. | . Note: we will run the sql query in READONLY mode to keep your data secure. ",
+    "url": "/docs/manual/99_plugins/sqlqueryexporter/#creating-sql-query-exporter-monitoring",
+    
+    "relUrl": "/docs/manual/99_plugins/sqlqueryexporter/#creating-sql-query-exporter-monitoring"
+  },"134": {
+    "doc": "Sql query exporter",
+    "title": "Understanding sql query exporter data",
+    "content": "By default, there are two default graphs: . | Metrics Collected graph: show how many metrics are reported from the sql query. | All metrics graph: show all the metrics reported. | . ",
+    "url": "/docs/manual/99_plugins/sqlqueryexporter/#understanding-sql-query-exporter-data",
+    
+    "relUrl": "/docs/manual/99_plugins/sqlqueryexporter/#understanding-sql-query-exporter-data"
+  },"135": {
+    "doc": "Sql query exporter",
+    "title": "Add custom dashboard",
+    "content": "You can add custom dashboard following the manual Dashboards to get more details. ",
+    "url": "/docs/manual/99_plugins/sqlqueryexporter/#add-custom-dashboard",
+    
+    "relUrl": "/docs/manual/99_plugins/sqlqueryexporter/#add-custom-dashboard"
+  },"136": {
+    "doc": "Create Windows Monitoring Account",
+    "title": "Create Windows Monitoring Account",
+    "content": ". | This document helps you to create a Windows account on your target Windows machine for monitoring purpose. For more detailed and official information, you can visit here [Windows Management Instrumentation - Win32 apps | Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/wmisdk/wmi-start-page). | . The first step to monitoring a Windows host is to make sure you have an account on the target machine with necessary permissions been set, you can follow steps below to create the account you want. 1. Create Account . You can go to the Control Panel / User Accounts to add a new account, here we assume you would create an account called zpmon . After the account created, go to Manage Account page again and select the created account to set a password for it (we would need the password when creating Windows WMI monitoring service) . Add Account To Correct Groups . The newly created account shall be added to following groups . | Distributed COM Users | Performance Log Users | Performance Monitor Users | Remote Management Users | . Note: In different version of Windows, some of the groups above may not exists, just find out the groups as follows and add in the user you just created . To do this, you need to goto Administrator Tools &gt; Computer Management and then select Local Users and Groups / Groups and click the group you want to add the user and add the user . Double click the group name you will be able to add the user into the group in popped up dialog: . Grant Permissions . There are few places you need to visit to grant the permissions. WMI Permission . The first permision is the WMI permissions. In Computer Management, expanding Services and Applications, you shall see WMI Control, right click to and select Properties. In the coming dialog, select Security tab and you shall see the namesaces with a “Security” button in the bottom. Click the Security button and in the coming dialog you shall enable the permissions as shown in below diagram: . DCOM Permission . WMI relies on DCOM (Distributed Component Object Model) for remote communication. You may need to configure DCOM permissions to allow remote access to WMI. To configure DCOM permissions, you can use the Component Services MMC snap-in (dcomcnfg) on the target machine. First navigate to Component Services &gt; Computers &gt; My Computer. Here right click on My Computer and select Properties, you shall switch to COM Security tab in shown dialog, click “Edit Limits …” in Launch and Activation Permissions to make following changes: . Note: here you can just modify one of the group the user is in to have above permissions . Then navigate to DCOM Config, find Windows Management and Instrumentation, and configure the permissions to allow remote access. Right click on Windows Management and Instrumentation and select Properties, goto the Security tab to make sure you have customized the Launch and Activation Permissions and Access Permissions to give the account all permissions. Firewall Settings . The final step is to make sure you have make changes to Windows firewall to allow the traffic. You shall at least allow below two rules be allowed: . For testing purpose, you may temporarily disable the Windows firewall on target Windows servers to use wbemtest or wmic tools to make sure the account created could successfully make connections from the collector host to the target servers. ",
+    "url": "/docs/manual/99_plugins/windows/account/",
+    
+    "relUrl": "/docs/manual/99_plugins/windows/account/"
+  },"137": {
+    "doc": "Windows WMI Monitoring",
+    "title": "Windows WMI Monitoring",
+    "content": ". Sometimes, we want to remotely monitoring Windows servers using WMI, we can do this by using Windows WMI Monitoring plugin. ",
+    "url": "/docs/manual/99_plugins/windows/",
+    
+    "relUrl": "/docs/manual/99_plugins/windows/"
+  },"138": {
+    "doc": "Windows WMI Monitoring",
+    "title": "Creating Windows WMI Monitoring",
+    "content": "To start monitor a Windows server, you first need to make sure you have installed a Windows collector, if not please follow instructions to add a Windows collector first. Once you have the Windows collector, you can follow steps in Add Monitor Service by selecting Windows (WMI) monitoring plugin: . Note: Make sure to select a Windows collector in the collector selection page . You’ll need to create provide the Windows host / domain information along with the username and password to complete adding the service: . Here, the following parameters would be required: . | Server Name: You can fill in the remote host name or IP address | Username: the username or account on remote host used to collecting WMI data | Password: corresponding password used | . Please make sure your have the correct permissions settings on the account. You can refer to here on How to create a WMI monitroing account . Understanding Windows Data . After few seconds adding the monitoring service, you can click the added monitored service and view a dashboard like belows: . Here you can see the basic status of the server as well as the major event logs generated in the given time range. ",
+    "url": "/docs/manual/99_plugins/windows/#creating-windows-wmi-monitoring",
+    
+    "relUrl": "/docs/manual/99_plugins/windows/#creating-windows-wmi-monitoring"
+  },"139": {
+    "doc": "Applications Monitoring",
+    "title": "Applications Monitoring",
+    "content": ". ZoomPhant has rich set of monitoring plugins for various applications, you can find the references here or, in the future, search in the application market! . *Note: For your custom data collection, you can use our custom application template to create it. * . | Prometheus Data: Directly along with Grafana dashboards. Please refer to Prometheus Template for more information!* | SNMP Data: We offer a simple and fast method for creating dashboards based on OIDs. Please refer to SNMP Template for more information!* | . ",
+    "url": "/docs/manual/99_plugins/",
+    
+    "relUrl": "/docs/manual/99_plugins/"
+  },"140": {
+    "doc": "References",
+    "title": "References",
+    "content": ". ZoomPhant can monitor everything for you, from hardware to software, from standalone host to cluster like Kubernetes! . Please look at the specific sections for the stuff you want to monitoring, and in case the information you are looking for are not here yet, please leave us a message by email at info@zervice.us. Note: We are continuously adding more documents here, please be patient and check back once every a while for updates! . ",
+    "url": "/docs/manual/",
+    
+    "relUrl": "/docs/manual/"
+  },"141": {
+    "doc": "Quick Start",
+    "title": "Quick Start",
+    "content": ". Starting using ZoomPhant is simple. Below steps will help you to get a community version running up in just one minute. Note: The community version is free for personal use only, if you want to use in your business please reach us by emailing to info@zervice.us . ",
+    "url": "/docs/start/",
+    
+    "relUrl": "/docs/start/"
+  },"142": {
+    "doc": "Quick Start",
+    "title": "Local Deployment",
+    "content": "To deploy locally, ensure your environment has Docker 20+ installed. For stable performance, it’s recommended to allocate 2 CPU cores and 8GB of free memory. Then, start with the following command: . docker run --hostname zoomphant -d -v /root/data:/data -p 8080:80 --name zoomphant zoomphant/pack:latest . | --hostname zoomphant: Avoid the hostname of the container changed each time it restarts. | -v /root/data:/data: Specifies the persistent data storage directory. You can modify it as needed. Failure to configure this will result in data loss after container restart. | -p 8080:80: Sets the external port. Default external port is 80, if you want to set the port to other like 8080, you can add this param. | --name zoomphant: Sets the container name for easy use in docker command. | Two image options are available: zoomphant/pack:latest and zoomphant/aio:latest. The former uses collectors directly from GitHub, while the latter integrates the latest collectors into the image, albeit with a larger size. | . After the container is started, you can check the logs to see if the system is running: . docker logs zoomphant . When you see the following log, it means the system is running: . @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ System is ready! You can access the service as follows: URL: http://172.17.0.36 User: admin@zervice.local Password: admin Any question or suggestion, please reach out to info@zervice.us! Enjoy!!! @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ . If you want to upgrade the system, you can use the following command: . #!/bin/bash echo \"Upgrade ...\" docker pull zoomphant/pack:latest docker stop zoomphant docker rm zoomphant docker run --hostname zoomphant -d -v /root/data:/data -p 8080:80 --name zoomphant zoomphant/pack:latest echo \"Upgrade Done!\" exit . ",
+    "url": "/docs/start/#local-deployment",
+    
+    "relUrl": "/docs/start/#local-deployment"
+  },"143": {
+    "doc": "Quick Start",
+    "title": "Cloud Deployment",
+    "content": "For cloud deployment using AWS ECS as an example, follow these steps: . | Create a Task Definition in ECS and configure the Container: . | Set the Image URI to zoomphant/pack:latest. | Map at least port 80 to facilitate UI access and collector data reporting. For example, set Host port to 8080. | . | . | Configure Volumes to map /data to an EBS volume to ensure data persistence. If you don’t add the volume, the data will be lost after restarting the container. | . | Launch a Service in a Cluster using the Task Definition. | . ",
+    "url": "/docs/start/#cloud-deployment",
+    
+    "relUrl": "/docs/start/#cloud-deployment"
+  },"144": {
+    "doc": "Quick Start",
+    "title": "Getting Started",
+    "content": "Access the system via http://&lt;your_ip&gt;:8080 in your browser. The default credentials are admin@zervice.local/admin. Upon initial login, remember to change the password. Upon login, you’ll enter the Wizard page by default. Follow the prompts to configure: . | System Configuration: Configure the system domain name for subsequent alert URLs and new collector installations. | External Service Host and External Service Port: Important settings that would be used when a new collector installed. You need to make sure the address can be accessible. If you are in AWS environment, we recommend to use the private IP of the EC2 instance. Then all the network traffic will not be charged. | Enable Release Server: Check it if you are using pack image. | . | . | Alert Delivery: Set up Alert Delivery to ensure timely notifications. | Delivery Channel: Configure the method like email, Slack, etc. to send an alert. | Delivery Chain: Configure a set of sequential step to use different channels. | . | . | Creating Monitors: Utilize the built-in collector to create your first monitor. We use HTTP monitor as an example here for it just need to provide the URL to create the monitor. | . | Infrastructure Monitoring: If you want to monitor other infrastructure and find it too cumbersome to open SNMP or WMI, you can choose to install a collector. Not only can you monitor that device in more detail today, but you can also collect local log files. Select your desired server type (e.g., Linux) and execute the provided command on the target server to establish monitoring. | You can see the Address in the command line, that’s configured in the first step. So you need to make sure it’s accessible. | The command should be executed by root user. | If there is no wget command, you can install it by download the installation package manually in the target server and run the option2 command. | . | . | Log Monitoring: Enable log monitoring by specifying the log file path, ensuring accessibility by the collector. You can use the nginx access log in our system by the built-in collector for a try . | We use grok to parse the log. You can change the grok if you changed the nginx log formation. | . | . Upon completion, click “Finish Now” to exit the Wizard. You can access monitoring details and manage services from the left sidebar’s Services page. ",
+    "url": "/docs/start/#getting-started",
+    
+    "relUrl": "/docs/start/#getting-started"
+  },"145": {
+    "doc": "About",
+    "title": "About ZoomPhant",
+    "content": ". ZoomPhant is an enterprise-level all-in-one monitoring solution for small to large business. Aimes to be the right monitoring tool for the Ops and DevOps teams, ZoomPhant can boost your businesses with its highly customizable functions and help customers to succeed in their digital transformations. Charactrized full-fledged functions, ease of use and extremely high customizability and controllability, ZoomPhant can be your right choice and a good replacement for DataDog, Zabbix, Prometheus, Loki &amp; Grafana. ZoomPhant is free for personal use. For commercial use please visit website (will coming soon) or contact us at info@zervice.us . ",
+    "url": "/#about-zoomphant",
+    
+    "relUrl": "/#about-zoomphant"
+  },"146": {
+    "doc": "About",
+    "title": "About",
+    "content": " ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"147": {
+    "doc": "Q & A",
+    "title": "Frequently Asked Questions",
+    "content": ". When Your Official Website Will Be Alive . We are working on the official wetsite yet, it will be alive soon. Before that please visit our GitHub repository for any updates. Will You Provide Cloud Services . We plan to provide Cloud Services in the coming soon, but more focused on providing management services and scenario based monitioring services (like a synthetic monitoring of you whole web-services). If you want more information and wish to be an early . Where Can I Report A Problem Or Request A New Feature . Please got to our GitHub repository to create an issue here. Before you reporting new problem or opening new feature, please make sure you have searched the issues to avoid duplications. ",
+    "url": "/docs/about/qa/#frequently-asked-questions",
+    
+    "relUrl": "/docs/about/qa/#frequently-asked-questions"
+  },"148": {
+    "doc": "Q & A",
+    "title": "Q & A",
+    "content": " ",
+    "url": "/docs/about/qa/",
+    
+    "relUrl": "/docs/about/qa/"
+  }
+}
